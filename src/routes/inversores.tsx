@@ -21,7 +21,7 @@ const content = {
     title: "Alta rentabilidad. Bajo riesgo.",
     subtitle: "Retornos superiores al 20% en periodos no mayores a 12 meses, algo único en el sector.",
     cards: [
-      { t: "+20% rentabilidad", d: "Frente al 6,5% de media del sector inmobiliario español." },
+      { t: "+15% rentabilidad", d: "Frente al 6,5% de media del sector inmobiliario español." },
       { t: "Menos de 12 meses", d: "Plazo máximo de retorno del capital invertido." },
       { t: "Garantía real", d: "Operaciones aseguradas contra el propio inmueble." },
     ],
