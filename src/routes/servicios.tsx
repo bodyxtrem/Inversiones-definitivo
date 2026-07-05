@@ -21,7 +21,9 @@ const content = {
     title: "Soluciones inmobiliarias a medida",
     subtitle: "Nuestros clientes son la prioridad. Cada operación se estudia y ejecuta con el máximo rigor.",
     h2: "Garantía y eficacia",
-    p: "En Grupo Cisum entendemos que cada operación inmobiliaria representa una historia, una necesidad y una decisión importante. Por eso acompañamos a cada cliente desde el primer contacto hasta la firma, ofreciendo un asesoramiento cercano, transparente y totalmente personalizado. Nuestro equipo multidisciplinar trabaja de forma coordinada para analizar cada caso, diseñar la mejor estrategia y garantizar un proceso ágil, seguro y sin incertidumbres. Más que gestionar operaciones inmobiliarias, ayudamos a las personas a tomar decisiones con confianza, protegiendo su patrimonio y ofreciéndoles soluciones eficaces adaptadas a su situación.",
+    p: "En Grupo Cisum entendemos que cada operación inmobiliaria representa una historia, una necesidad y una decisión importante. Por eso acompañamos a cada cliente desde el primer contacto hasta la firma, ofreciendo un asesoramiento cercano, transparente y totalmente personalizado.",
+    p: "Nuestro equipo multidisciplinar trabaja de forma coordinada para analizar cada caso, diseñar la mejor estrategia y garantizar un proceso ágil, seguro y sin incertidumbres.",
+    p: "Más que gestionar operaciones inmobiliarias, ayudamos a las personas a tomar decisiones con confianza, protegiendo su patrimonio y ofreciéndoles soluciones eficaces adaptadas a su situación.",
     cta: "Solicitar estudio gratuito",
     services: [
       { t: "Venta de inmueble", q: "¿Vendes tu casa porque necesitas liquidez?", d: "Te adelantamos hasta el 50% del precio de venta para que puedas hacer frente a lo que no puede esperar. Vende sin prisa y consigue el mejor precio por tu vivienda." },
