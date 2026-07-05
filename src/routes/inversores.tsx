@@ -26,7 +26,7 @@ const content = {
       { t: "Garantía real", d: "Operaciones aseguradas contra el propio inmueble." },
     ],
     h2: "Rentabilidad y garantías",
-    p1: "El sector inmobiliario en España ofreció un 6,5% de rentabilidad en 2022; en Cataluña, donde se concentra la mayor parte de nuestras operaciones, alcanzó el 6,8%. Grupo Cisum lleva más de 20 años ofreciendo a sus inversores rentabilidades superiores al 20% con retornos en periodos inferiores a 12 meses.",
+    p1: "El sector inmobiliario en España ofreció un 6,5% de rentabilidad en 2022; en Cataluña, donde se concentra la mayor parte de nuestras operaciones, alcanzó el 6,8%. Grupo Cisum lleva más de 20 años ofreciendo a sus inversores rentabilidades superiores al 15% con retornos en periodos inferiores a 12 meses.",
     p2: "Nuestro equipo legal desarrolla estrategias que garantizan las operaciones contra el propio inmueble, algo que ningún competidor del sector puede ofrecer hoy.",
     cta: "Quiero invertir",
   },
