@@ -21,7 +21,8 @@ const content = {
     title: "Soluciones inmobiliarias a medida",
     subtitle: "Nuestros clientes son la prioridad. Cada operación se estudia y ejecuta con el máximo rigor.",
     h2: "Garantía y eficacia",
-    p: "Desde el primer contacto hasta la finalización de la operación, nuestro equipo de profesionales estará implicado al máximo en tu caso. Así conseguimos ofrecer, en un corto espacio de tiempo, soluciones óptimas, eficientes y sin riesgos.",
+    p: "Cada cliente recibe un acompañamiento integral desde el primer contacto hasta la firma de la operación. Nuestro equipo de especialistas trabaja de forma coordinada para ofrecer un servicio cercano, ágil y completamente personalizado, garantizando que cada decisión se tome con la máxima seguridad y confianza.
+      Nuestro objetivo es encontrar la mejor solución para cada situación en el menor tiempo posible, reduciendo riesgos y aportando la tranquilidad que nuestros clientes necesitan durante todo el proceso.",
     cta: "Solicitar estudio gratuito",
     services: [
       { t: "Venta de inmueble", q: "¿Vendes tu casa porque necesitas liquidez?", d: "Te adelantamos hasta el 50% del precio de venta para que puedas hacer frente a lo que no puede esperar. Vende sin prisa y consigue el mejor precio por tu vivienda." },
