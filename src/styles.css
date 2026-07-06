@@ -31,7 +31,7 @@
   --color-teal: var(--teal);
   --color-teal-deep: var(--teal-deep);
   --color-gold: var(--gold);
-  --font-serif: "Cormorant Garamond", ui-serif, Georgia, serif;
+  --font-serif: Verdana, Geneva, sans-serif;
   --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
 }
 
