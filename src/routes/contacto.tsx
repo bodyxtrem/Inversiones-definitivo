@@ -75,7 +75,7 @@ function Contact() {
                 </span>
                 <div>
                   <p className="font-medium">{t.email}</p>
-                  <p className="text-muted-foreground">info@Royalgroup.com</p>
+                  <p className="text-muted-foreground">info@royalgroup.com</p>
                 </div>
               </li>
               <li className="flex gap-4">
