@@ -52,7 +52,7 @@ export function SiteFooter() {
         <div>
           <div className="flex items-center gap-3">
             <span className="flex h-10 w-10 items-center justify-center rounded-full border border-gold text-gold font-serif">
-              CG
+              RG
             </span>
             <span className="font-serif text-xl tracking-widest">Royal GROUP</span>
           </div>
