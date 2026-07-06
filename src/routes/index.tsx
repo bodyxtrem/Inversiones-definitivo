@@ -222,7 +222,7 @@ function Home() {
         <div className="mx-auto max-w-6xl grid lg:grid-cols-2 gap-16 items-center">
           <div>
             <p className="text-teal uppercase tracking-[0.3em] text-xs mb-4">{t.introEyebrow}</p>
-            <h2 className="font-serif text-4xl md:text-5xl text-teal-deep leading-tight">{t.introTitle}</h2>
+            <h2 className="font-serif text-3xl md:text-4xl text-teal-deep leading-tight">{t.introTitle}</h2>
             <p className="mt-6 text-muted-foreground leading-relaxed">{t.introText}</p>
             <ul className="mt-8 space-y-3">
               {t.bullets.map((item) => (
@@ -248,7 +248,7 @@ function Home() {
       <section className="bg-secondary py-24 px-6">
         <div className="mx-auto max-w-6xl text-center">
           <p className="text-teal uppercase tracking-[0.3em] text-xs mb-4">{t.pillarsEyebrow}</p>
-          <h2 className="font-serif text-4xl md:text-5xl text-teal-deep">{t.pillarsTitle}</h2>
+          <h2 className="font-serif text-3xl md:text-4xl text-teal-deep">{t.pillarsTitle}</h2>
           <div className="mt-16 grid md:grid-cols-3 gap-8">
             {t.pillars.map((p, i) => {
               const Icon = pillarIcons[i];
@@ -272,7 +272,7 @@ function Home() {
           <img src={teamImg} alt="" width={1280} height={960} loading="lazy" className="rounded-lg shadow-2xl w-full h-[520px] object-cover order-2 lg:order-1" />
           <div className="order-1 lg:order-2">
             <p className="text-teal uppercase tracking-[0.3em] text-xs mb-4">{t.methodEyebrow}</p>
-            <h2 className="font-serif text-4xl md:text-5xl text-teal-deep leading-tight">{t.methodTitle}</h2>
+            <h2 className="font-serif text-3xl md:text-4xl text-teal-deep leading-tight">{t.methodTitle}</h2>
             <div className="mt-10 space-y-8">
               {t.steps.map((s, i) => (
                 <div key={s.t} className="flex gap-6">
@@ -293,7 +293,7 @@ function Home() {
         <div className="mx-auto max-w-6xl">
           <div className="text-center max-w-2xl mx-auto">
             <p className="text-gold uppercase tracking-[0.3em] text-xs mb-4">{t.advEyebrow}</p>
-            <h2 className="font-serif text-4xl md:text-5xl">{t.advTitle}</h2>
+            <h2 className="font-serif text-3xl md:text-4xl">{t.advTitle}</h2>
           </div>
           <div className="mt-16 grid md:grid-cols-3 gap-10">
             {t.advs.map((v, i) => {
@@ -317,7 +317,7 @@ function Home() {
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div>
               <p className="text-teal uppercase tracking-[0.3em] text-xs mb-4">{t.servEyebrow}</p>
-              <h2 className="font-serif text-4xl md:text-5xl text-teal-deep leading-tight">{t.servTitle}</h2>
+              <h2 className="font-serif text-3xl md:text-4xl text-teal-deep leading-tight">{t.servTitle}</h2>
               <p className="mt-6 text-muted-foreground leading-relaxed">{t.servText}</p>
               <Link to="/servicios" className="mt-8 inline-flex items-center gap-2 text-teal-deep font-medium hover:text-teal group">
                 {t.servLink}
@@ -341,7 +341,7 @@ function Home() {
       {/* CTA */}
       <section className="bg-secondary py-20 px-6">
         <div className="mx-auto max-w-4xl text-center">
-          <h2 className="font-serif text-4xl md:text-5xl text-teal-deep">{t.ctaTitle}</h2>
+          <h2 className="font-serif text-3xl md:text-4xl text-teal-deep">{t.ctaTitle}</h2>
           <p className="mt-4 text-muted-foreground">{t.ctaSub}</p>
           <Link to="/contacto" className="mt-8 inline-flex items-center gap-2 bg-teal-deep text-white px-8 py-4 rounded-full hover:bg-teal transition">
             {t.ctaBtn} <ArrowRight size={18} />

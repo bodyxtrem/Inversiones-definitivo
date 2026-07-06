@@ -58,7 +58,7 @@ function Contact() {
       <section className="py-20 px-6">
         <div className="mx-auto max-w-6xl grid lg:grid-cols-2 gap-16">
           <div>
-            <h2 className="font-serif text-3xl text-teal-deep">{t.h2}</h2>
+            <h2 className="font-serif text-2xl text-teal-deep">{t.h2}</h2>
             <ul className="mt-8 space-y-6">
               <li className="flex gap-4">
                 <span className="w-12 h-12 rounded-full bg-teal-deep text-gold flex items-center justify-center shrink-0">

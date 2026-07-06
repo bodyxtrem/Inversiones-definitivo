@@ -81,7 +81,7 @@ function Investors() {
         </div>
 
         <div className="mx-auto max-w-4xl mt-20 text-center">
-          <h2 className="font-serif text-4xl text-teal-deep">{t.h2}</h2>
+          <h2 className="font-serif text-3xl text-teal-deep">{t.h2}</h2>
           <p className="mt-6 text-muted-foreground leading-relaxed">{t.p1}</p>
           <p className="mt-4 text-muted-foreground leading-relaxed">{t.p2}</p>
           <Link to="/contacto" className="mt-10 inline-flex bg-teal-deep text-white px-8 py-4 rounded-full hover:bg-teal transition">
