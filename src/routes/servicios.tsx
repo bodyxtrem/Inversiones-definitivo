@@ -82,7 +82,7 @@ function Services() {
         <div className="mx-auto max-w-6xl mt-20 grid md:grid-cols-2 gap-8">
           {t.services.map((s) => (
             <div key={s.t} className="p-8 rounded-lg bg-secondary border border-border hover:border-teal hover:shadow-lg transition">
-              <h3 className="font-serif text-2xl text-teal-deep">{s.t}</h3>
+              <h3 className="font-serif text-1xl text-teal-deep">{s.t}</h3>
               <p className="mt-3 font-medium text-teal">{s.q}</p>
               <p className="mt-4 text-muted-foreground leading-relaxed">{s.d}</p>
             </div>

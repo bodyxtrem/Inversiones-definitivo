@@ -73,7 +73,7 @@ function Investors() {
             return (
               <div key={c.t} className="border border-border rounded-lg p-8 hover:border-teal transition">
                 <Icon className="text-gold" size={32} />
-                <h3 className="mt-6 font-serif text-2xl text-teal-deep">{c.t}</h3>
+                <h3 className="mt-6 font-serif text-1xl text-teal-deep">{c.t}</h3>
                 <p className="mt-2 text-muted-foreground">{c.d}</p>
               </div>
             );

@@ -96,7 +96,7 @@ function Contact() {
           >
             {sent ? (
               <div className="text-center py-16">
-                <h3 className="font-serif text-3xl text-teal-deep">{t.thanks}</h3>
+                <h3 className="font-serif text-2xl text-teal-deep">{t.thanks}</h3>
                 <p className="mt-3 text-muted-foreground">{t.thanksSub}</p>
               </div>
             ) : (

@@ -257,7 +257,7 @@ function Home() {
                   <div className="w-12 h-12 rounded-full bg-teal-deep flex items-center justify-center text-gold mb-6 group-hover:bg-gold group-hover:text-teal-deep transition">
                     <Icon size={24} />
                   </div>
-                  <h3 className="font-serif text-2xl text-teal-deep mb-3">{p.title}</h3>
+                  <h3 className="font-serif text-1xl text-teal-deep mb-3">{p.title}</h3>
                   <p className="text-muted-foreground leading-relaxed">{p.text}</p>
                 </div>
               );
@@ -278,7 +278,7 @@ function Home() {
                 <div key={s.t} className="flex gap-6">
                   <span className="font-serif text-5xl text-gold leading-none">{stepNums[i]}</span>
                   <div>
-                    <h3 className="font-serif text-2xl text-teal-deep">{s.t}</h3>
+                    <h3 className="font-serif text-1xl text-teal-deep">{s.t}</h3>
                     <p className="text-muted-foreground mt-2">{s.d}</p>
                   </div>
                 </div>
@@ -301,7 +301,7 @@ function Home() {
               return (
                 <div key={v.t} className="border-t border-gold pt-6">
                   {Icon ? <Icon className="text-gold mb-3" size={24} /> : null}
-                  <h3 className="font-serif text-3xl text-gold">{v.t}</h3>
+                  <h3 className="font-serif text-2xl text-gold">{v.t}</h3>
                   <p className="mt-2 font-medium">{v.s}</p>
                   <p className="mt-4 text-white/70 leading-relaxed">{v.d}</p>
                 </div>

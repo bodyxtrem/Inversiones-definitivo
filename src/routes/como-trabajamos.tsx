@@ -66,7 +66,7 @@ function How() {
             <div key={s.t} className="flex gap-8 items-start border-b border-border pb-12 last:border-none">
               <span className="font-serif text-6xl text-gold leading-none w-24 shrink-0">{numbers[i]}</span>
               <div>
-                <h3 className="font-serif text-3xl text-teal-deep">{s.t}</h3>
+                <h3 className="font-serif text-2xl text-teal-deep">{s.t}</h3>
                 <p className="mt-3 text-muted-foreground leading-relaxed">{s.d}</p>
                 <p className="mt-4 text-sm text-teal">{t.stepLabel(i + 1, t.steps.length)}</p>
               </div>
