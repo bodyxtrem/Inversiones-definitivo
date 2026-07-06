@@ -22,7 +22,7 @@ export const Route = createFileRoute("/")({
 const content = {
   es: {
     eyebrow: "Grupo Royal",
-    heroA: "Especialistas no",
+    heroA: "Especialistas en",
     heroB: "soluciones inmobiliarias estratégicas",
     heroSub: "Más de 10 años de experiencia acompañando a familias e inversores en el sector inmobiliario.",
     ctaContact: "Contactar",
