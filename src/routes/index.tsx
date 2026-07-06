@@ -188,7 +188,7 @@ function Home() {
   const t = usePick(content);
   const pillarIcons = [TrendingUp, ShieldCheck, Users];
   const advIcons = [undefined, undefined, undefined];
-  const stepNums = ["01", "02", "03", "04"];
+  const stepNums = ["1", "2", "3", "4"];
 
   return (
     <SiteLayout transparentHeader>
