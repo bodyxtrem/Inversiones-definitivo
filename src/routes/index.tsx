@@ -187,7 +187,7 @@ const content = {
 function Home() {
   const t = usePick(content);
   const pillarIcons = [TrendingUp, ShieldCheck, Users];
-  const advIcons = [undefined, Clock, undefined];
+  const advIcons = [undefined, undefined, undefined];
   const stepNums = ["1", "2", "3", "4"];
 
   return (
