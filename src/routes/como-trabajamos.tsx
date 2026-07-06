@@ -5,9 +5,9 @@ import { usePick } from "@/lib/lang";
 export const Route = createFileRoute("/como-trabajamos")({
   head: () => ({
     meta: [
-      { title: "Cómo trabajamos — Cisum Group" },
+      { title: "Cómo trabajamos — Royal Group" },
       { name: "description", content: "Nuestro método en cuatro pasos: solicitud, estudio, propuesta y firma." },
-      { property: "og:title", content: "Cómo trabajamos — Cisum Group" },
+      { property: "og:title", content: "Cómo trabajamos — Royal Group" },
       { property: "og:description", content: "Un método probado, cercano y eficaz." },
     ],
   }),

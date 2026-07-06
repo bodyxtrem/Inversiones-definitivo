@@ -6,9 +6,9 @@ import { usePick } from "@/lib/lang";
 export const Route = createFileRoute("/inversores")({
   head: () => ({
     meta: [
-      { title: "Inversores — Cisum Group" },
+      { title: "Inversores — Royal Group" },
       { name: "description", content: "Rentabilidades superiores al 20% con operaciones garantizadas contra el propio inmueble." },
-      { property: "og:title", content: "Inversores — Cisum Group" },
+      { property: "og:title", content: "Inversores — Royal Group" },
       { property: "og:description", content: "Alta rentabilidad, bajo riesgo y retornos en menos de 12 meses." },
     ],
   }),
@@ -26,7 +26,7 @@ const content = {
       { t: "Garantía real", d: "Operaciones aseguradas contra el propio inmueble." },
     ],
     h2: "Rentabilidad y garantías",
-    p1: "El sector inmobiliario en España ofreció un 6,5% de rentabilidad en 2022; en Cataluña, donde se concentra la mayor parte de nuestras operaciones, alcanzó el 6,8%. Grupo Cisum lleva más de 20 años ofreciendo a sus inversores rentabilidades superiores al 20% con retornos en periodos inferiores a 12 meses.",
+    p1: "El sector inmobiliario en España ofreció un 6,5% de rentabilidad en 2022; en Cataluña, donde se concentra la mayor parte de nuestras operaciones, alcanzó el 6,8%. Grupo Royal lleva más de 20 años ofreciendo a sus inversores rentabilidades superiores al 20% con retornos en periodos inferiores a 12 meses.",
     p2: "Nuestro equipo legal desarrolla estrategias que garantizan las operaciones contra el propio inmueble, algo que ningún competidor del sector puede ofrecer hoy.",
     cta: "Quiero invertir",
   },
@@ -40,7 +40,7 @@ const content = {
       { t: "Real collateral", d: "Operations secured against the property itself." },
     ],
     h2: "Returns and guarantees",
-    p1: "The Spanish real estate sector delivered 6.5% return in 2022; in Catalonia, where most of our operations take place, it reached 6.8%. Cisum Group has been offering investors returns above 20% with paybacks in less than 12 months for over 20 years.",
+    p1: "The Spanish real estate sector delivered 6.5% return in 2022; in Catalonia, where most of our operations take place, it reached 6.8%. Royal Group has been offering investors returns above 20% with paybacks in less than 12 months for over 20 years.",
     p2: "Our legal team develops strategies that secure each operation against the property itself — something no competitor can offer today.",
     cta: "I want to invest",
   },
@@ -54,7 +54,7 @@ const content = {
       { t: "Garantie réelle", d: "Opérations sécurisées contre le bien lui-même." },
     ],
     h2: "Rentabilité et garanties",
-    p1: "Le secteur immobilier espagnol a offert 6,5 % de rentabilité en 2022 ; en Catalogne, où se concentre l'essentiel de nos opérations, il a atteint 6,8 %. Cisum offre depuis plus de 20 ans des rendements supérieurs à 20 % avec des retours en moins de 12 mois.",
+    p1: "Le secteur immobilier espagnol a offert 6,5 % de rentabilité en 2022 ; en Catalogne, où se concentre l'essentiel de nos opérations, il a atteint 6,8 %. Royal offre depuis plus de 20 ans des rendements supérieurs à 20 % avec des retours en moins de 12 mois.",
     p2: "Notre équipe juridique met en place des stratégies qui garantissent chaque opération contre le bien — un avantage qu'aucun concurrent ne peut offrir aujourd'hui.",
     cta: "Je souhaite investir",
   },

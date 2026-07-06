@@ -10,9 +10,9 @@ import { usePick } from "@/lib/lang";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Cisum Group — Multifamily Office Inmobiliario en Barcelona" },
+      { title: "Royal Group — Multifamily Office Inmobiliario en Barcelona" },
       { name: "description", content: "Más de 20 años ofreciendo soluciones inmobiliarias y financieras: adelantamos hasta el 50% del precio de venta, pagamos tu hipoteca y no cobras hasta vender." },
-      { property: "og:title", content: "Cisum Group — Multifamily Office" },
+      { property: "og:title", content: "Royal Group — Multifamily Office" },
       { property: "og:description", content: "Soluciones inmobiliarias revolucionarias, efectivas y rápidas." },
     ],
   }),
@@ -21,7 +21,7 @@ export const Route = createFileRoute("/")({
 
 const content = {
   es: {
-    eyebrow: "Grupo Cisum",
+    eyebrow: "Grupo Royal",
     heroA: "Somos un",
     heroB: "multifamily office",
     heroSub: "Más de 20 años de experiencia acompañando a familias e inversores en el sector inmobiliario.",
@@ -29,7 +29,7 @@ const content = {
     ctaServices: "Nuestros servicios",
     introEyebrow: "Más de 20 años de experiencia",
     introTitle: "No somos una agencia inmobiliaria cualquiera",
-    introText: "En Cisum Real Estate, además de nuestro departamento inmobiliario, contamos con un equipo legal con más de 20 años de experiencia en el sector. Ofrecemos soluciones revolucionarias, efectivas y rápidas.",
+    introText: "En Royal Real Estate, además de nuestro departamento inmobiliario, contamos con un equipo legal con más de 20 años de experiencia en el sector. Ofrecemos soluciones revolucionarias, efectivas y rápidas.",
     bullets: [
       "Contrato de arras en 48 horas",
       "Adelantamos hasta el 50% del precio de venta",
@@ -39,7 +39,7 @@ const content = {
     tagline: "Y no pagas hasta que vendas.",
     yearsLabel: "años acompañando a nuestros clientes",
     pillarsEyebrow: "Nuestros pilares",
-    pillarsTitle: "En Grupo Cisum, nuestra prioridad son las personas",
+    pillarsTitle: "En Grupo Royal, nuestra prioridad son las personas",
     pillars: [
       { title: "Rentabilidad", text: "Ofrecemos a nuestros inversores rentabilidades superiores al 20% con retornos en periodos no superiores a 12 meses." },
       { title: "Garantías", text: "Nuestras operaciones están garantizadas contra el propio inmueble, minimizando el riesgo al máximo." },
@@ -62,7 +62,7 @@ const content = {
     ],
     servEyebrow: "Nuestros servicios",
     servTitle: "Soluciones a medida para cada cliente",
-    servText: "Grupo Cisum es sinónimo de garantía y eficacia. A través de nuestra experiencia ofrecemos diferentes servicios a nuestros clientes para resolver de forma óptima, eficiente y sin riesgos.",
+    servText: "Grupo Royal es sinónimo de garantía y eficacia. A través de nuestra experiencia ofrecemos diferentes servicios a nuestros clientes para resolver de forma óptima, eficiente y sin riesgos.",
     servLink: "Ver todos los servicios",
     servs: [
       { t: "Venta de inmueble", d: "Adelantamos hasta el 50% del precio de venta." },
@@ -75,7 +75,7 @@ const content = {
     ctaBtn: "Contactar ahora",
   },
   en: {
-    eyebrow: "Cisum Group",
+    eyebrow: "Royal Group",
     heroA: "We are a",
     heroB: "multifamily office",
     heroSub: "Over 20 years of experience supporting families and investors in real estate.",
@@ -83,7 +83,7 @@ const content = {
     ctaServices: "Our services",
     introEyebrow: "Over 20 years of experience",
     introTitle: "We're not your typical real estate agency",
-    introText: "At Cisum Real Estate, in addition to our real estate department, we have a legal team with over 20 years of experience. We offer revolutionary, effective and fast solutions.",
+    introText: "At Royal Real Estate, in addition to our real estate department, we have a legal team with over 20 years of experience. We offer revolutionary, effective and fast solutions.",
     bullets: [
       "Deposit contract in 48 hours",
       "We advance up to 50% of the sale price",
@@ -93,7 +93,7 @@ const content = {
     tagline: "And you don't pay until you sell.",
     yearsLabel: "years supporting our clients",
     pillarsEyebrow: "Our pillars",
-    pillarsTitle: "At Cisum Group, people are our priority",
+    pillarsTitle: "At Royal Group, people are our priority",
     pillars: [
       { title: "Profitability", text: "We offer our investors returns above 20% with payback in less than 12 months." },
       { title: "Guarantees", text: "Our operations are guaranteed against the property itself, minimizing risk." },
@@ -116,7 +116,7 @@ const content = {
     ],
     servEyebrow: "Our services",
     servTitle: "Tailored solutions for every client",
-    servText: "Cisum Group means reliability and effectiveness. Through our experience we offer different services to our clients to solve their situations in the best possible way.",
+    servText: "Royal Group means reliability and effectiveness. Through our experience we offer different services to our clients to solve their situations in the best possible way.",
     servLink: "See all services",
     servs: [
       { t: "Property sale", d: "We advance up to 50% of the sale price." },
@@ -129,7 +129,7 @@ const content = {
     ctaBtn: "Contact us now",
   },
   fr: {
-    eyebrow: "Groupe Cisum",
+    eyebrow: "Groupe Royal",
     heroA: "Nous sommes un",
     heroB: "multifamily office",
     heroSub: "Plus de 20 ans d'expérience aux côtés des familles et des investisseurs dans l'immobilier.",
@@ -137,7 +137,7 @@ const content = {
     ctaServices: "Nos services",
     introEyebrow: "Plus de 20 ans d'expérience",
     introTitle: "Nous ne sommes pas une agence immobilière comme les autres",
-    introText: "Chez Cisum Real Estate, au-delà de notre département immobilier, nous disposons d'une équipe juridique forte de plus de 20 ans d'expérience. Nous offrons des solutions révolutionnaires, efficaces et rapides.",
+    introText: "Chez Royal Real Estate, au-delà de notre département immobilier, nous disposons d'une équipe juridique forte de plus de 20 ans d'expérience. Nous offrons des solutions révolutionnaires, efficaces et rapides.",
     bullets: [
       "Compromis de vente en 48 heures",
       "Nous avançons jusqu'à 50 % du prix de vente",
@@ -147,7 +147,7 @@ const content = {
     tagline: "Et vous ne payez rien tant que vous ne vendez pas.",
     yearsLabel: "années aux côtés de nos clients",
     pillarsEyebrow: "Nos piliers",
-    pillarsTitle: "Chez Cisum, notre priorité, ce sont les personnes",
+    pillarsTitle: "Chez Royal, notre priorité, ce sont les personnes",
     pillars: [
       { title: "Rentabilité", text: "Nous offrons à nos investisseurs des rendements supérieurs à 20 % avec un retour en moins de 12 mois." },
       { title: "Garanties", text: "Nos opérations sont garanties contre le bien lui-même, réduisant le risque au minimum." },
@@ -170,7 +170,7 @@ const content = {
     ],
     servEyebrow: "Nos services",
     servTitle: "Des solutions sur mesure pour chaque client",
-    servText: "Cisum est synonyme de fiabilité et d'efficacité. Grâce à notre expérience, nous proposons différents services pour résoudre chaque situation de manière optimale.",
+    servText: "Royal est synonyme de fiabilité et d'efficacité. Grâce à notre expérience, nous proposons différents services pour résoudre chaque situation de manière optimale.",
     servLink: "Voir tous les services",
     servs: [
       { t: "Vente d'un bien", d: "Nous avançons jusqu'à 50 % du prix de vente." },

@@ -6,9 +6,9 @@ import { usePick } from "@/lib/lang";
 export const Route = createFileRoute("/servicios")({
   head: () => ({
     meta: [
-      { title: "Servicios — Cisum Group" },
+      { title: "Servicios — Royal Group" },
       { name: "description", content: "Venta de inmueble, herencias, embargos y renta vitalicia. Soluciones inmobiliarias a medida." },
-      { property: "og:title", content: "Servicios — Cisum Group" },
+      { property: "og:title", content: "Servicios — Royal Group" },
       { property: "og:description", content: "Soluciones inmobiliarias a medida." },
     ],
   }),
