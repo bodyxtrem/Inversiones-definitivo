@@ -54,7 +54,7 @@ export function SiteFooter() {
             <span className="flex h-10 w-10 items-center justify-center rounded-full border border-gold text-gold font-serif">
               CG
             </span>
-            <span className="font-serif text-xl tracking-widest">CISUM GROUP</span>
+            <span className="font-serif text-xl tracking-widest">ROYAL GROUP</span>
           </div>
           <p className="mt-4 text-sm text-white/70 max-w-sm">{t.tagline}</p>
         </div>
