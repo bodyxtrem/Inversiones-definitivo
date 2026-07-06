@@ -198,7 +198,7 @@ function Home() {
         <div className="absolute inset-0 bg-teal-deep/70" />
         <div className="relative z-10 text-center px-6 max-w-5xl">
           <p className="text-gold uppercase tracking-[0.4em] text-xs mb-6">{t.eyebrow}</p>
-          <h1 className="font-serif text-5xl md:text-7xl lg:text-8xl leading-[1.05]">
+          <h1 className="font-serif text-4xl md:text-6xl lg:text-7xl leading-[1.05]">
             {t.heroA}<br />
             <span className="italic">{t.heroB}</span>
           </h1>
