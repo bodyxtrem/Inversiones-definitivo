@@ -24,7 +24,7 @@ const content = {
     eyebrow: "Grupo Royal",
     heroA: "Especialistas en",
     heroB: "soluciones inmobiliarias estratégicas",
-    heroSub: "Más de 10 años resolviendo operaciones inmobiliarias complejas con éxito.",
+    heroSub: "Más de 10 años de experiencia acompañando a familias e inversores en el sector inmobiliario."",
     ctaContact: "Contactar",
     ctaServices: "Nuestros servicios",
     introEyebrow: "Más de 10 años resolviendo operaciones inmobiliarias complejas con éxito",
@@ -188,7 +188,7 @@ function Home() {
   const t = usePick(content);
   const pillarIcons = [TrendingUp, ShieldCheck, Users];
   const advIcons = [undefined, Clock, undefined];
-  const stepNums = ["01", "02", "03", "04"];
+  const stepNums = ["1", "2", "3", "4"];
 
   return (
     <SiteLayout transparentHeader>
