@@ -7,9 +7,9 @@ import { usePick } from "@/lib/lang";
 export const Route = createFileRoute("/contacto")({
   head: () => ({
     meta: [
-      { title: "Contacto — Cisum Group" },
-      { name: "description", content: "Contacta con Cisum Group en Barcelona. Estudio gratuito y sin compromiso en 48 horas." },
-      { property: "og:title", content: "Contacto — Cisum Group" },
+      { title: "Contacto — Royal Group" },
+      { name: "description", content: "Contacta con Royal Group en Barcelona. Estudio gratuito y sin compromiso en 48 horas." },
+      { property: "og:title", content: "Contacto — Royal Group" },
       { property: "og:description", content: "Hablemos de tu proyecto." },
     ],
   }),
@@ -75,7 +75,7 @@ function Contact() {
                 </span>
                 <div>
                   <p className="font-medium">{t.email}</p>
-                  <p className="text-muted-foreground">info@cisumgroup.com</p>
+                  <p className="text-muted-foreground">info@Royalgroup.com</p>
                 </div>
               </li>
               <li className="flex gap-4">

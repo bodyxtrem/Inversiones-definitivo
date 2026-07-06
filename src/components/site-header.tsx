@@ -55,7 +55,7 @@ export function SiteHeader({ transparent = false }: { transparent?: boolean }) {
           <span className="flex h-10 w-10 items-center justify-center rounded-full border border-gold text-gold font-serif text-lg">
             CG
           </span>
-          <span className="font-serif text-xl tracking-widest">CISUM GROUP</span>
+          <span className="font-serif text-xl tracking-widest">Royal GROUP</span>
         </Link>
 
         <div className="hidden lg:flex items-center gap-8">

@@ -6,7 +6,7 @@ type Ctx = { lang: Lang; setLang: (l: Lang) => void };
 
 const LangContext = createContext<Ctx>({ lang: "es", setLang: () => {} });
 
-const STORAGE_KEY = "cisum-lang";
+const STORAGE_KEY = "Royal-lang";
 
 export function LanguageProvider({ children }: { children: ReactNode }) {
   const [lang, setLangState] = useState<Lang>("es");

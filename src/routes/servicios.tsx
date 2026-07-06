@@ -6,9 +6,9 @@ import { usePick } from "@/lib/lang";
 export const Route = createFileRoute("/servicios")({
   head: () => ({
     meta: [
-      { title: "Servicios — Cisum Group" },
+      { title: "Servicios — Royal Group" },
       { name: "description", content: "Venta de inmueble, herencias, embargos y renta vitalicia. Soluciones inmobiliarias a medida." },
-      { property: "og:title", content: "Servicios — Cisum Group" },
+      { property: "og:title", content: "Servicios — Royal Group" },
       { property: "og:description", content: "Soluciones inmobiliarias a medida." },
     ],
   }),
@@ -22,7 +22,7 @@ const content = {
     subtitle: "Nuestros clientes son la prioridad. Cada operación se estudia y ejecuta con el máximo rigor.",
     h2: "Garantía y eficacia",
      p: [
-      "En Grupo Cisum entendemos que cada operación inmobiliaria representa una historia, una necesidad y una decisión importante. Por eso acompañamos a cada cliente desde el primer contacto hasta la firma, ofreciendo un asesoramiento cercano, transparente y profesional.",
+      "En Grupo Royal entendemos que cada operación inmobiliaria representa una historia, una necesidad y una decisión importante. Por eso acompañamos a cada cliente desde el primer contacto hasta la firma, ofreciendo un asesoramiento cercano, transparente y profesional.",
       "Nuestro equipo multidisciplinar trabaja de forma coordinada para analizar cada caso, diseñar la mejor estrategia y garantizar un proceso ágil, seguro y sin incertidumbres.",
       "Más que gestionar operaciones inmobiliarias, ayudamos a las personas a tomar decisiones con confianza, protegiendo su patrimonio y ofreciéndoles soluciones eficaces adaptadas a su situación.",
       "Diseñamos soluciones personalizadas para situaciones que requieren rapidez, seguridad y experiencia."
