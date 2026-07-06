@@ -300,7 +300,7 @@ function Home() {
               const Icon = advIcons[i];
               return (
                 <div key={v.t} className="border-t border-gold pt-6">
-                  {Icon ? <Icon className="text-gold mb-3" size={24} /> : null}
+                  {Icon ? <Clock className="text-gold mb-3" size={24} /> : null}
                   <h3 className="font-serif text-3xl text-gold">{v.t}</h3>
                   <p className="mt-2 font-medium">{v.s}</p>
                   <p className="mt-4 text-white/70 leading-relaxed">{v.d}</p>
