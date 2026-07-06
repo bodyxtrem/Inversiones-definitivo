@@ -53,7 +53,7 @@ const content = {
   },
 };
 
-const numbers = ["01", "02", "03", "04"];
+const numbers = ["1.", "2.", "3.", "4."];
 
 function How() {
   const t = usePick(content);
