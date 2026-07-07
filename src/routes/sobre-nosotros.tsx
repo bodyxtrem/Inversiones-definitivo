@@ -23,7 +23,7 @@ const content = {
     h2: "Nuestra prioridad son las personas",
     p1: "En Grupo Royal trabajamos de forma personalizada. Cada cliente cuenta con un agente dedicado que acompaña su caso desde el primer contacto hasta la firma en notaría, garantizando cercanía, transparencia y resultados.",
     p2: "Combinamos un departamento inmobiliario ágil con un equipo legal con más de 10 años de experiencia. Esta doble mirada nos permite diseñar soluciones que otros no pueden ofrecer.",
-    s1: "años de experiencia",
+    s1: "de experiencia",
     s2: "de estudio gratuito",
     s3: "rentabilidad media",
   },
