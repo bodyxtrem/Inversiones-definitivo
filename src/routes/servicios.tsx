@@ -24,7 +24,7 @@ const content = {
     p: "Desde el primer contacto hasta la finalización de la operación, nuestro equipo de profesionales estará implicado al máximo en tu caso. Así conseguimos ofrecer, en un corto espacio de tiempo, soluciones óptimas, eficientes y sin riesgos.",
     cta: "Solicitar estudio gratuito",
     services: [
-      { t: "Venta de inmueble", q: "¿Vendes tu casa porque necesitas liquidez?", d: "Te adelantamos hasta el 50% del precio de venta para que puedas hacer frente a lo que no puede esperar. Vende sin prisa y consigue el mejor precio por tu vivienda." },
+      { t: "Venta de inmueble", q: "¿Vendes tu casa porque necesitas liquidez?", d: "Te adelantamos hasta el 50% del valor de venta para que puedas hacer frente a lo que no puede esperar. Vende sin prisa y consigue el mejor precio por tu vivienda." },
       { t: "Herencias", q: "¿Necesitas liquidez para aceptar una herencia?", d: "Si has heredado una propiedad y quieres venderla pero no tienes liquidez para afrontar los gastos, te avanzamos la suma necesaria para poder venderla sin problemas." },
       { t: "Embargos", q: "¿Vender con embargos sobre la propiedad?", d: "Sabemos lo difícil que es vender una propiedad con embargos. Te adelantamos el dinero necesario para liquidarlos y facilitar la venta sin miedo a la ejecución." },
       { t: "Renta vitalicia", q: "¿Renta vitalicia pero necesitas el importe ahora?", d: "En muchos casos, una mensualidad no resuelve el problema. Adelantamos el importe completo en un único pago en el momento de la firma del contrato." },
