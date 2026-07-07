@@ -39,7 +39,7 @@ const content = {
     tagline: "Sin pagos por adelantado: solo cobramos cuando la venta de tu inmueble se formaliza.",
     yearsLabel: "protegiendo el patrimonio de clientes",
     pillarsEyebrow: "Nuestros pilares",
-    pillarsTitle: "En Grupo Royal, nuestra prioridad son las personas",
+    pillarsTitle: "En Grupo Royal, Las personas son nuestra prioridad",
     pillars: [
       { title: "Rentabilidad", text: "Ofrecemos a nuestros inversores rentabilidades superiores al 15% con retornos previstos en menos de 12 meses." },
       { title: "Garantías", text: "Nuestras operaciones están respaldadas por el propio inmueble, reduciendo el riesgo al máximo." },

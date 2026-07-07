@@ -18,10 +18,10 @@ export const Route = createFileRoute("/sobre-nosotros")({
 const content = {
   es: {
     eyebrow: "Quiénes somos",
-    title: "Un Multifamily Office con historia",
-    subtitle: "Más de dos décadas cuidando el patrimonio inmobiliario de nuestros clientes.",
-    h2: "Nuestra prioridad son las personas",
-    p1: "En Grupo Royal trabajamos de forma personalizada. Cada cliente cuenta con un agente dedicado que acompaña su caso desde el primer contacto hasta la firma en notaría, garantizando cercanía, transparencia y resultados.",
+    title: "Un Multifamily Office de referencia",
+    subtitle: "Más de 10 años ofreciendo soluciones para proteger y rentabilizar el patrimonio inmobiliario de nuestros clientes.",
+    h2: "Las personas son nuestra prioridad",
+    p1: "En Grupo Royal ofrecemos un asesoramiento totalmente personalizado. Cada cliente cuenta con un asesor especializado que le acompaña desde el primer contacto hasta la firma ante notario, garantizando cercanía, transparencia y seguridad durante todo el proceso.",
     p2: "Combinamos un departamento inmobiliario ágil con un equipo legal con más de 10 años de experiencia. Esta doble mirada nos permite diseñar soluciones que otros no pueden ofrecer.",
     s1: "años de experiencia",
     s2: "de estudio gratuito",
