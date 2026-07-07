@@ -29,9 +29,9 @@ const content = {
     ctaServices: "Nuestros servicios",
     introEyebrow: "Más de 20 años de experiencia",
     introTitle: "No somos una agencia inmobiliaria cualquiera",
-    introText: "En Royal Real Estate, además de nuestro departamento inmobiliario, contamos con un equipo legal con más de 20 años de experiencia en el sector. Ofrecemos soluciones revolucionarias, efectivas y rápidas.",
+    introText: "En Royal Group combinamos un departamento inmobiliario con un equipo legal especializado y más de 20 años de experiencia. Ofrecemos soluciones inmobiliarias y financieras ágiles, seguras y personalizadas.",
     bullets: [
-      "Contrato de arras en 48 horas",
+      "Contrato de arras en 48-72 horas",
       "Adelantamos hasta el 50% del precio de venta",
       "Pagamos tu hipoteca mientras vendes",
       "Adelantamos los gastos de tu herencia",
@@ -41,7 +41,7 @@ const content = {
     pillarsEyebrow: "Nuestros pilares",
     pillarsTitle: "En Grupo Royal, nuestra prioridad son las personas",
     pillars: [
-      { title: "Rentabilidad", text: "Ofrecemos a nuestros inversores rentabilidades superiores al 20% con retornos en periodos no superiores a 12 meses." },
+      { title: "Rentabilidad", text: "Ofrecemos a nuestros inversores rentabilidades superiores al 15% con retornos en periodos no superiores a 12 meses." },
       { title: "Garantías", text: "Nuestras operaciones están garantizadas contra el propio inmueble, minimizando el riesgo al máximo." },
       { title: "Personas", text: "Cada cliente cuenta con un agente dedicado desde el primer contacto hasta la firma en notaría." },
     ],
@@ -57,11 +57,11 @@ const content = {
     advTitle: "Confianza, rapidez y seguridad",
     advs: [
       { t: "Exclusividad", s: "Atención personalizada", d: "Un agente dedicado a tu caso desde el inicio hasta el día de la firma." },
-      { t: "Rapidez", s: "Estudio gratuito en 48 horas", d: "Respuesta de viabilidad sin compromiso. Solo cobramos si finalmente firmas." },
+      { t: "Rapidez", s: "Estudio gratuito en 48-72 horas", d: "Respuesta de viabilidad sin compromiso. Solo cobramos si finalmente firmas." },
       { t: "Seguridad", s: "20 años de experiencia", d: "Miles de clientes satisfechos avalan la eficacia de nuestro método." },
     ],
     servEyebrow: "Nuestros servicios",
-    servTitle: "Soluciones a medida para cada cliente",
+    servTitle: "Soluciones inmobiliarias adaptadas a cada cliente",
     servText: "Grupo Royal es sinónimo de garantía y eficacia. A través de nuestra experiencia ofrecemos diferentes servicios a nuestros clientes para resolver de forma óptima, eficiente y sin riesgos.",
     servLink: "Ver todos los servicios",
     servs: [
@@ -71,7 +71,7 @@ const content = {
       { t: "Renta vitalicia", d: "Recibe el importe completo en un solo pago." },
     ],
     ctaTitle: "¿Hablamos de tu proyecto?",
-    ctaSub: "Estudio gratuito y sin compromiso en 48 horas.",
+    ctaSub: "Estudio gratuito y sin compromiso en 48-72 horas.",
     ctaBtn: "Contactar ahora",
   },
   en: {
@@ -95,7 +95,7 @@ const content = {
     pillarsEyebrow: "Our pillars",
     pillarsTitle: "At Royal Group, people are our priority",
     pillars: [
-      { title: "Profitability", text: "We offer our investors returns above 20% with payback in less than 12 months." },
+      { title: "Profitability", text: "We offer our investors returns above 15% with payback in less than 12 months." },
       { title: "Guarantees", text: "Our operations are guaranteed against the property itself, minimizing risk." },
       { title: "People", text: "Each client has a dedicated agent from first contact through signing." },
     ],

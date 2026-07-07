@@ -73,7 +73,7 @@ function About() {
                 <p className="text-sm text-muted-foreground">{t.s2}</p>
               </div>
               <div>
-                <p className="font-serif text-4xl text-gold">20%</p>
+                <p className="font-serif text-4xl text-gold">15%</p>
                 <p className="text-sm text-muted-foreground">{t.s3}</p>
               </div>
             </div>

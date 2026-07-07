@@ -8,7 +8,7 @@ export const Route = createFileRoute("/contacto")({
   head: () => ({
     meta: [
       { title: "Contacto — Royal Group" },
-      { name: "description", content: "Contacta con Royal Group en Barcelona. Estudio gratuito y sin compromiso en 48 horas." },
+      { name: "description", content: "Contacta con Royal Group en Barcelona. Estudio gratuito y sin compromiso en 48-72 horas." },
       { property: "og:title", content: "Contacto — Royal Group" },
       { property: "og:description", content: "Hablemos de tu proyecto." },
     ],
@@ -20,12 +20,12 @@ const content = {
   es: {
     eyebrow: "Contacto",
     title: "Hablemos de tu proyecto",
-    subtitle: "Estudio gratuito y sin compromiso en 48 horas.",
+    subtitle: "Estudio gratuito y sin compromiso en 48-72 horas.",
     h2: "Datos de contacto",
     address: "Dirección", email: "Email", phone: "Teléfono",
     name: "Nombre", message: "Mensaje", send: "Enviar mensaje",
     thanks: "¡Gracias!",
-    thanksSub: "Hemos recibido tu mensaje. Te contactaremos en menos de 48 horas.",
+    thanksSub: "Hemos recibido tu mensaje. Te contactaremos en menos de 48-72 horas.",
   },
   en: {
     eyebrow: "Contact",

@@ -7,7 +7,7 @@ export const Route = createFileRoute("/inversores")({
   head: () => ({
     meta: [
       { title: "Inversores — Royal Group" },
-      { name: "description", content: "Rentabilidades superiores al 20% con operaciones garantizadas contra el propio inmueble." },
+      { name: "description", content: "Rentabilidades superiores al 15% con operaciones garantizadas contra el propio inmueble." },
       { property: "og:title", content: "Inversores — Royal Group" },
       { property: "og:description", content: "Alta rentabilidad, bajo riesgo y retornos en menos de 12 meses." },
     ],
@@ -19,28 +19,28 @@ const content = {
   es: {
     eyebrow: "Inversores",
     title: "Alta rentabilidad. Bajo riesgo.",
-    subtitle: "Retornos superiores al 20% en periodos no mayores a 12 meses, algo único en el sector.",
+    subtitle: "Retornos superiores al 15% en periodos no mayores a 12 meses, algo único en el sector.",
     cards: [
-      { t: "+20% rentabilidad", d: "Frente al 6,5% de media del sector inmobiliario español." },
+      { t: "+15% rentabilidad", d: "Frente al 6,5% de media del sector inmobiliario español." },
       { t: "Menos de 12 meses", d: "Plazo máximo de retorno del capital invertido." },
       { t: "Garantía real", d: "Operaciones aseguradas contra el propio inmueble." },
     ],
     h2: "Rentabilidad y garantías",
-    p1: "El sector inmobiliario en España ofreció un 6,5% de rentabilidad en 2022; en Cataluña, donde se concentra la mayor parte de nuestras operaciones, alcanzó el 6,8%. Grupo Royal lleva más de 20 años ofreciendo a sus inversores rentabilidades superiores al 20% con retornos en periodos inferiores a 12 meses.",
+    p1: "El sector inmobiliario en España ofreció un 6,5% de rentabilidad en 2022; en Cataluña, donde se concentra la mayor parte de nuestras operaciones, alcanzó el 6,8%. Grupo Royal lleva más de 20 años ofreciendo a sus inversores rentabilidades superiores al 15% con retornos en periodos inferiores a 12 meses.",
     p2: "Nuestro equipo legal desarrolla estrategias que garantizan las operaciones contra el propio inmueble, algo que ningún competidor del sector puede ofrecer hoy.",
     cta: "Quiero invertir",
   },
   en: {
     eyebrow: "Investors",
     title: "High returns. Low risk.",
-    subtitle: "Returns above 20% in less than 12 months — unique in the sector.",
+    subtitle: "Returns above 15% in less than 12 months — unique in the sector.",
     cards: [
-      { t: "+20% return", d: "Compared to the 6.5% average of the Spanish real estate sector." },
+      { t: "+15% return", d: "Compared to the 6.5% average of the Spanish real estate sector." },
       { t: "Under 12 months", d: "Maximum payback period for invested capital." },
       { t: "Real collateral", d: "Operations secured against the property itself." },
     ],
     h2: "Returns and guarantees",
-    p1: "The Spanish real estate sector delivered 6.5% return in 2022; in Catalonia, where most of our operations take place, it reached 6.8%. Royal Group has been offering investors returns above 20% with paybacks in less than 12 months for over 20 years.",
+    p1: "The Spanish real estate sector delivered 6.5% return in 2022; in Catalonia, where most of our operations take place, it reached 6.8%. Royal Group has been offering investors returns above 15% with paybacks in less than 12 months for over 20 years.",
     p2: "Our legal team develops strategies that secure each operation against the property itself — something no competitor can offer today.",
     cta: "I want to invest",
   },
