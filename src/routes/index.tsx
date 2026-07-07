@@ -27,38 +27,39 @@ const content = {
     heroSub: "Más de 20 años creando soluciones inmobiliarias, financieras y patrimoniales para propietarios e inversores.",
     ctaContact: "Contactar",
     ctaServices: "Ver servicios",
-    introEyebrow: "Más de 20 años de experiencia",
-    introTitle: "No somos una agencia inmobiliaria cualquiera",
-    introText: "En Royal Group combinamos un departamento inmobiliario con un equipo legal especializado y más de 20 años de experiencia. Ofrecemos soluciones inmobiliarias y financieras ágiles, seguras y personalizadas.",
+    introEyebrow: "Más de 10 años de experiencia",
+    introTitle: "Mucho más que una agencia inmobiliaria",
+    introText: "En Royal Group unimos experiencia inmobiliaria, asesoramiento legal y visión patrimonial. Diseñamos soluciones financieras e inmobiliarias ágiles, seguras y a medida.",
     bullets: [
       "Contrato de arras en 48-72 horas",
       "Adelantamos hasta el 50% del precio de venta",
       "Pagamos tu hipoteca mientras vendes",
       "Adelantamos los gastos de tu herencia",
     ],
-    tagline: "Y no pagas hasta que vendas.",
-    yearsLabel: "años acompañando a nuestros clientes",
+    tagline: "Sin pagos por adelantado: solo cobramos cuando la venta de tu inmueble se formaliza.",
+    yearsLabel: "protegiendo el patrimonio de clientes",
     pillarsEyebrow: "Nuestros pilares",
     pillarsTitle: "En Grupo Royal, nuestra prioridad son las personas",
     pillars: [
-      { title: "Rentabilidad", text: "Ofrecemos a nuestros inversores rentabilidades superiores al 15% con retornos en periodos no superiores a 12 meses." },
-      { title: "Garantías", text: "Nuestras operaciones están garantizadas contra el propio inmueble, minimizando el riesgo al máximo." },
-      { title: "Personas", text: "Cada cliente cuenta con un agente dedicado desde el primer contacto hasta la firma en notaría." },
+      { title: "Rentabilidad", text: "Ofrecemos a nuestros inversores rentabilidades superiores al 15% con retornos previstos en menos de 12 meses." },
+      { title: "Garantías", text: "riesgo al máximo.
+Nuestras operaciones están respaldadas por el propio inmueble, reduciendo el riesgo al máximo." },
+      { title: "Personas", text: "Cada cliente cuenta con un asesor especializado desde el primer contacto hasta la firma en notaría." },
     ],
-    methodEyebrow: "Nuestro método",
+    methodEyebrow: "Nuestro sistema",
     methodTitle: "En cuatro sencillos pasos",
     steps: [
-      { t: "Solicitud", d: "Solicita un estudio gratuito para analizar el tipo de necesidad que mejor se adapta a tus intereses." },
-      { t: "Estudio", d: "Nuestro agente te indicará la viabilidad y la documentación necesaria para el estudio definitivo." },
-      { t: "Propuesta", d: "Te haremos una oferta en base a tus necesidades y la propiedad." },
-      { t: "Firma", d: "Te acompañamos en todo el proceso hasta la firma en la notaría." },
+      { t: "Solicitud", d: "Solicita un estudio gratuito para valorar la solución que mejor se adapta a tus necesidades." },
+      { t: "Estudio", d: "Un asesor analizará la viabilidad y la documentación necesaria para preparar la propuesta." },
+      { t: "Propuesta", d: "Recibirás una propuesta adaptada a tus necesidades y al valor del inmueble." },
+      { t: "Firma", d: "Te acompañamos durante todo el proceso hasta la firma ante notario." },
     ],
     advEyebrow: "Nuestras ventajas",
-    advTitle: "Confianza, rapidez y seguridad",
+    advTitle: "Confianza, rapidez y garantías",
     advs: [
-      { t: "Exclusividad", s: "Atención personalizada", d: "Un agente dedicado a tu caso desde el inicio hasta el día de la firma." },
+      { t: "Atención exclusiva", s: "Atención personalizada", d: "Un agente dedicado a tu caso desde el inicio hasta el día de la firma." },
       { t: "Rapidez", s: "Estudio gratuito en 48-72 horas", d: "Respuesta de viabilidad sin compromiso. Solo cobramos si finalmente firmas." },
-      { t: "Seguridad", s: "20 años de experiencia", d: "Miles de clientes satisfechos avalan la eficacia de nuestro método." },
+      { t: "Seguridad", s: "Más de 10 años de experiencia", d: "Miles de clientes satisfechos avalan la eficacia de Nuestro sistema." },
     ],
     servEyebrow: "Nuestros servicios",
     servTitle: "Soluciones inmobiliarias adaptadas a cada cliente",
@@ -149,7 +150,7 @@ const content = {
     pillarsEyebrow: "Nos piliers",
     pillarsTitle: "Chez Royal, notre priorité, ce sont les personnes",
     pillars: [
-      { title: "Rentabilité", text: "Nous offrons à nos investisseurs des rendements supérieurs à 20 % avec un retour en moins de 12 mois." },
+      { title: "Rentabilité", text: "Nous offrons à nos investisseurs des rendements supérieurs à 15% avec un retour en moins de 12 mois." },
       { title: "Garanties", text: "Nos opérations sont garanties contre le bien lui-même, réduisant le risque au minimum." },
       { title: "Les personnes", text: "Chaque client bénéficie d'un agent dédié, du premier contact à la signature notariée." },
     ],
@@ -237,7 +238,7 @@ function Home() {
           <div className="relative">
             <img src={realEstateImg} alt="" width={1280} height={960} loading="lazy" className="rounded-lg shadow-2xl w-full h-[520px] object-cover" />
             <div className="absolute -bottom-6 -left-6 bg-teal-deep text-white p-6 rounded-lg shadow-xl max-w-xs hidden md:block">
-              <p className="font-serif text-4xl text-gold">+20</p>
+              <p className="font-serif text-4xl text-gold">+15 años</p>
               <p className="text-sm mt-1">{t.yearsLabel}</p>
             </div>
           </div>

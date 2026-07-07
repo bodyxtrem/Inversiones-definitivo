@@ -79,7 +79,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { title: "Royal Group — Multifamily Office Inmobiliario" },
-      { name: "description", content: "Más de 20 años de experiencia ofreciendo soluciones inmobiliarias y legales en Barcelona." },
+      { name: "description", content: "Más de 10 años de experiencia ofreciendo soluciones inmobiliarias y legales en Barcelona." },
       { property: "og:title", content: "Royal Group — Multifamily Office" },
       { property: "og:description", content: "Soluciones inmobiliarias revolucionarias, efectivas y rápidas." },
       { property: "og:type", content: "website" },

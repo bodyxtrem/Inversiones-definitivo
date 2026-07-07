@@ -47,14 +47,14 @@ const content = {
   fr: {
     eyebrow: "Investisseurs",
     title: "Haute rentabilité. Faible risque.",
-    subtitle: "Rendements supérieurs à 20 % en moins de 12 mois, unique sur le marché.",
+    subtitle: "Rendements supérieurs à 15% en moins de 12 mois, unique sur le marché.",
     cards: [
-      { t: "+20 % de rendement", d: "Contre 6,5 % en moyenne dans l'immobilier espagnol." },
+      { t: "+15% de rendement", d: "Contre 6,5 % en moyenne dans l'immobilier espagnol." },
       { t: "Moins de 12 mois", d: "Délai maximum de retour du capital investi." },
       { t: "Garantie réelle", d: "Opérations sécurisées contre le bien lui-même." },
     ],
     h2: "Rentabilité et garanties",
-    p1: "Le secteur immobilier espagnol a offert 6,5 % de rentabilité en 2022 ; en Catalogne, où se concentre l'essentiel de nos opérations, il a atteint 6,8 %. Royal offre depuis plus de 20 ans des rendements supérieurs à 20 % avec des retours en moins de 12 mois.",
+    p1: "Le secteur immobilier espagnol a offert 6,5 % de rentabilité en 2022 ; en Catalogne, où se concentre l'essentiel de nos opérations, il a atteint 6,8 %. Royal offre depuis plus de 20 ans des rendements supérieurs à 15% avec des retours en moins de 12 mois.",
     p2: "Notre équipe juridique met en place des stratégies qui garantissent chaque opération contre le bien — un avantage qu'aucun concurrent ne peut offrir aujourd'hui.",
     cta: "Je souhaite investir",
   },

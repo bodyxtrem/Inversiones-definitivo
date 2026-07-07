@@ -6,7 +6,7 @@ export const Route = createFileRoute("/como-trabajamos")({
   head: () => ({
     meta: [
       { title: "Cómo trabajamos — Royal Group" },
-      { name: "description", content: "Nuestro método en cuatro pasos: solicitud, estudio, propuesta y firma." },
+      { name: "description", content: "Nuestro sistema en cuatro pasos: solicitud, estudio, propuesta y firma." },
       { property: "og:title", content: "Cómo trabajamos — Royal Group" },
       { property: "og:description", content: "Un método probado, cercano y eficaz." },
     ],
@@ -16,15 +16,15 @@ export const Route = createFileRoute("/como-trabajamos")({
 
 const content = {
   es: {
-    eyebrow: "Nuestro método",
+    eyebrow: "Nuestro sistema",
     title: "En cuatro sencillos pasos",
     subtitle: "Un proceso claro y transparente, del primer contacto a la firma en notaría.",
     stepLabel: (i: number, total: number) => `Paso ${i} de ${total}`,
     steps: [
-      { t: "Solicitud", d: "Solicita un estudio gratuito para analizar el tipo de necesidad que mejor se adapta a tus intereses." },
-      { t: "Estudio", d: "Nuestro agente te indicará la viabilidad y la documentación necesaria para el estudio definitivo." },
-      { t: "Propuesta", d: "Te haremos una oferta en base a tus necesidades y la propiedad." },
-      { t: "Firma", d: "Te acompañamos en todo el proceso hasta la firma en la notaría." },
+      { t: "Solicitud", d: "Solicita un estudio gratuito para valorar la solución que mejor se adapta a tus necesidades." },
+      { t: "Estudio", d: "Un asesor analizará la viabilidad y la documentación necesaria para preparar la propuesta." },
+      { t: "Propuesta", d: "Recibirás una propuesta adaptada a tus necesidades y al valor del inmueble." },
+      { t: "Firma", d: "Te acompañamos durante todo el proceso hasta la firma ante notario." },
     ],
   },
   en: {

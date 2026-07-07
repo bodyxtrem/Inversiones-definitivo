@@ -22,7 +22,7 @@ const content = {
     subtitle: "Más de dos décadas cuidando el patrimonio inmobiliario de nuestros clientes.",
     h2: "Nuestra prioridad son las personas",
     p1: "En Grupo Royal trabajamos de forma personalizada. Cada cliente cuenta con un agente dedicado que acompaña su caso desde el primer contacto hasta la firma en notaría, garantizando cercanía, transparencia y resultados.",
-    p2: "Combinamos un departamento inmobiliario ágil con un equipo legal con más de 20 años de experiencia. Esta doble mirada nos permite diseñar soluciones que otros no pueden ofrecer.",
+    p2: "Combinamos un departamento inmobiliario ágil con un equipo legal con más de 10 años de experiencia. Esta doble mirada nos permite diseñar soluciones que otros no pueden ofrecer.",
     s1: "años de experiencia",
     s2: "de estudio gratuito",
     s3: "rentabilidad media",
@@ -65,7 +65,7 @@ function About() {
             <p className="mt-4 text-muted-foreground leading-relaxed">{t.p2}</p>
             <div className="mt-10 grid grid-cols-3 gap-6">
               <div>
-                <p className="font-serif text-4xl text-gold">+20</p>
+                <p className="font-serif text-4xl text-gold">+15 años</p>
                 <p className="text-sm text-muted-foreground">{t.s1}</p>
               </div>
               <div>

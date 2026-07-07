@@ -4,7 +4,7 @@ import { usePick } from "@/lib/lang";
 
 const content = {
   es: {
-    tagline: "Multifamily Office con más de 20 años de experiencia en el sector inmobiliario y legal.",
+    tagline: "Multifamily Office con más de 10 años de experiencia en el sector inmobiliario y legal.",
     nav: "Navegación",
     contact: "Contacto",
     links: [
