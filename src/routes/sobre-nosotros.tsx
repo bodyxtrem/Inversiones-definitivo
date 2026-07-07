@@ -65,7 +65,7 @@ function About() {
             <p className="mt-4 text-muted-foreground leading-relaxed">{t.p2}</p>
             <div className="mt-10 grid grid-cols-3 gap-6">
               <div>
-                <p className="font-serif text-4xl text-gold">+15 años</p>
+                <p className="font-serif text-4xl text-gold">+10 años</p>
                 <p className="text-sm text-muted-foreground">{t.s1}</p>
               </div>
               <div>

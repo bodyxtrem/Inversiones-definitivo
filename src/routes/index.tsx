@@ -237,7 +237,7 @@ function Home() {
           <div className="relative">
             <img src={realEstateImg} alt="" width={1280} height={960} loading="lazy" className="rounded-lg shadow-2xl w-full h-[520px] object-cover" />
             <div className="absolute -bottom-6 -left-6 bg-teal-deep text-white p-6 rounded-lg shadow-xl max-w-xs hidden md:block">
-              <p className="font-serif text-4xl text-gold">+15 años</p>
+              <p className="font-serif text-4xl text-gold">+10 años</p>
               <p className="text-sm mt-1">{t.yearsLabel}</p>
             </div>
           </div>
