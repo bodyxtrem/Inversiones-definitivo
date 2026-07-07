@@ -73,7 +73,7 @@ function Investors() {
             return (
               <div key={c.t} className="border border-border rounded-lg p-8 hover:border-teal transition">
                 <Icon className="text-gold" size={32} />
-                <h3 className="mt-6 font-serif text-2xl text-teal-deep">{c.t}</h3>
+                <h3 className="mt-6 font-serif text-1xl text-teal-deep">{c.t}</h3>
                 <p className="mt-2 text-muted-foreground">{c.d}</p>
               </div>
             );
@@ -81,7 +81,7 @@ function Investors() {
         </div>
 
         <div className="mx-auto max-w-4xl mt-20 text-center">
-          <h2 className="font-serif text-4xl text-teal-deep">{t.h2}</h2>
+          <h2 className="font-serif text-3xl text-teal-deep">{t.h2}</h2>
           <p className="mt-6 text-muted-foreground leading-relaxed">{t.p1}</p>
           <p className="mt-4 text-muted-foreground leading-relaxed">{t.p2}</p>
           <Link to="/contacto" className="mt-10 inline-flex bg-teal-deep text-white px-8 py-4 rounded-full hover:bg-teal transition">

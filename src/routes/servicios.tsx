@@ -69,7 +69,7 @@ function Services() {
         <div className="mx-auto max-w-6xl grid lg:grid-cols-2 gap-12 items-center">
           <img src={servicesImg} alt="" width={1280} height={960} loading="lazy" className="rounded-lg shadow-2xl w-full h-[480px] object-cover" />
           <div>
-            <h2 className="font-serif text-4xl text-teal-deep">{t.h2}</h2>
+            <h2 className="font-serif text-3xl text-teal-deep">{t.h2}</h2>
             <p className="mt-6 text-muted-foreground leading-relaxed">{t.p}</p>
           </div>
         </div>
@@ -77,7 +77,7 @@ function Services() {
         <div className="mx-auto max-w-6xl mt-20 grid md:grid-cols-2 gap-8">
           {t.services.map((s) => (
             <div key={s.t} className="p-8 rounded-lg bg-secondary border border-border hover:border-teal hover:shadow-lg transition">
-              <h3 className="font-serif text-2xl text-teal-deep">{s.t}</h3>
+              <h3 className="font-serif text-1xl text-teal-deep">{s.t}</h3>
               <p className="mt-3 font-medium text-teal">{s.q}</p>
               <p className="mt-4 text-muted-foreground leading-relaxed">{s.d}</p>
             </div>

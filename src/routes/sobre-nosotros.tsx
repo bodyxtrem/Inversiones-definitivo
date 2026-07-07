@@ -60,7 +60,7 @@ function About() {
         <div className="mx-auto max-w-6xl grid lg:grid-cols-2 gap-16 items-center">
           <img src={teamImg} alt="" width={1280} height={960} loading="lazy" className="rounded-lg shadow-2xl w-full h-[500px] object-cover" />
           <div>
-            <h2 className="font-serif text-4xl text-teal-deep">{t.h2}</h2>
+            <h2 className="font-serif text-3xl text-teal-deep">{t.h2}</h2>
             <p className="mt-6 text-muted-foreground leading-relaxed">{t.p1}</p>
             <p className="mt-4 text-muted-foreground leading-relaxed">{t.p2}</p>
             <div className="mt-10 grid grid-cols-3 gap-6">
