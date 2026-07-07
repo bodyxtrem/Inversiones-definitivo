@@ -4,7 +4,7 @@ import { usePick } from "@/lib/lang";
 
 const content = {
   es: {
-    tagline: "Multifamily office con más de 20 años de experiencia en el sector inmobiliario y legal.",
+    tagline: "Multifamily Office con más de 20 años de experiencia en el sector inmobiliario y legal.",
     nav: "Navegación",
     contact: "Contacto",
     links: [
@@ -17,7 +17,7 @@ const content = {
     rights: "Todos los derechos reservados.",
   },
   en: {
-    tagline: "Multifamily office with over 20 years of experience in real estate and legal services.",
+    tagline: "Multifamily Office with over 20 years of experience in real estate and legal services.",
     nav: "Navigation",
     contact: "Contact",
     links: [
@@ -30,7 +30,7 @@ const content = {
     rights: "All rights reserved.",
   },
   fr: {
-    tagline: "Multifamily office avec plus de 20 ans d'expérience dans l'immobilier et le juridique.",
+    tagline: "Multifamily Office avec plus de 20 ans d'expérience dans l'immobilier et le juridique.",
     nav: "Navigation",
     contact: "Contact",
     links: [
@@ -52,7 +52,7 @@ export function SiteFooter() {
         <div>
           <div className="flex items-center gap-3">
             <span className="flex h-10 w-10 items-center justify-center rounded-full border border-gold text-gold font-serif">
-              RY
+              RG
             </span>
             <span className="font-serif text-xl tracking-widest">ROYAL GROUP</span>
           </div>

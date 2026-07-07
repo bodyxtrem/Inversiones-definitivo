@@ -9,7 +9,7 @@ export const Route = createFileRoute("/sobre-nosotros")({
       { title: "Sobre nosotros — Royal Group" },
       { name: "description", content: "Conoce Grupo Royal: más de 20 años ofreciendo soluciones inmobiliarias y legales personalizadas." },
       { property: "og:title", content: "Sobre nosotros — Royal Group" },
-      { property: "og:description", content: "Multifamily office con experiencia y confianza." },
+      { property: "og:description", content: "Multifamily Office con experiencia y confianza." },
     ],
   }),
   component: About,
@@ -18,7 +18,7 @@ export const Route = createFileRoute("/sobre-nosotros")({
 const content = {
   es: {
     eyebrow: "Quiénes somos",
-    title: "Un multifamily office con historia",
+    title: "Un Multifamily Office con historia",
     subtitle: "Más de dos décadas cuidando el patrimonio inmobiliario de nuestros clientes.",
     h2: "Nuestra prioridad son las personas",
     p1: "En Grupo Royal trabajamos de forma personalizada. Cada cliente cuenta con un agente dedicado que acompaña su caso desde el primer contacto hasta la firma en notaría, garantizando cercanía, transparencia y resultados.",
@@ -29,7 +29,7 @@ const content = {
   },
   en: {
     eyebrow: "Who we are",
-    title: "A multifamily office with history",
+    title: "A Multifamily Office with history",
     subtitle: "More than two decades caring for our clients' real estate assets.",
     h2: "People are our priority",
     p1: "At Royal Group we work one-on-one. Each client has a dedicated agent from first contact through signing at the notary, ensuring closeness, transparency and results.",
@@ -40,7 +40,7 @@ const content = {
   },
   fr: {
     eyebrow: "Qui sommes-nous",
-    title: "Un multifamily office avec une histoire",
+    title: "Un Multifamily Office avec une histoire",
     subtitle: "Plus de deux décennies au service du patrimoine immobilier de nos clients.",
     h2: "Notre priorité, ce sont les personnes",
     p1: "Chez Royal, nous travaillons de manière personnalisée. Chaque client bénéficie d'un agent dédié, du premier contact à la signature notariée, avec proximité, transparence et résultats.",

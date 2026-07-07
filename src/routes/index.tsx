@@ -23,8 +23,8 @@ const content = {
   es: {
     eyebrow: "Grupo Royal",
     heroA: "Somos un",
-    heroB: "multifamily office",
-    heroSub: "Más de 20 años de experiencia acompañando a familias e inversores en el sector inmobiliario.",
+    heroB: "Multifamily Office",
+    heroSub: "Más de 20 años ofreciendo soluciones inmobiliarias y financieras a propietarios e inversores.",
     ctaContact: "Contactar",
     ctaServices: "Nuestros servicios",
     introEyebrow: "Más de 20 años de experiencia",
@@ -77,7 +77,7 @@ const content = {
   en: {
     eyebrow: "Royal Group",
     heroA: "We are a",
-    heroB: "multifamily office",
+    heroB: "Multifamily Office",
     heroSub: "Over 20 years of experience supporting families and investors in real estate.",
     ctaContact: "Contact us",
     ctaServices: "Our services",
@@ -131,7 +131,7 @@ const content = {
   fr: {
     eyebrow: "Groupe Royal",
     heroA: "Nous sommes un",
-    heroB: "multifamily office",
+    heroB: "Multifamily Office",
     heroSub: "Plus de 20 ans d'expérience aux côtés des familles et des investisseurs dans l'immobilier.",
     ctaContact: "Nous contacter",
     ctaServices: "Nos services",
