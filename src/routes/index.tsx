@@ -42,8 +42,7 @@ const content = {
     pillarsTitle: "En Grupo Royal, nuestra prioridad son las personas",
     pillars: [
       { title: "Rentabilidad", text: "Ofrecemos a nuestros inversores rentabilidades superiores al 15% con retornos previstos en menos de 12 meses." },
-      { title: "Garantías", text: "riesgo al máximo.
-Nuestras operaciones están respaldadas por el propio inmueble, reduciendo el riesgo al máximo." },
+      { title: "Garantías", text: "Nuestras operaciones están respaldadas por el propio inmueble, reduciendo el riesgo al máximo." },
       { title: "Personas", text: "Cada cliente cuenta con un asesor especializado desde el primer contacto hasta la firma en notaría." },
     ],
     methodEyebrow: "Nuestro sistema",
