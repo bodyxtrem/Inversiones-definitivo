@@ -219,7 +219,7 @@ function Contact() {
 
       <section className="py-20 px-6">
         <div className="mx-auto max-w-6xl grid lg:grid-cols-2 gap-16">
-          <div>
+          <div className="lg:order-2">
             <h2 className="font-serif text-2xl text-teal-deep">
               {t.h2}
             </h2>
@@ -272,7 +272,7 @@ function Contact() {
 
           <form
             onSubmit={handleSubmit}
-            className="bg-secondary p-8 rounded-lg space-y-4"
+            className="bg-secondary p-8 rounded-lg space-y-4 lg:order-1"
           >
             {sent ? (
               <div className="text-center py-16">
@@ -365,10 +365,18 @@ function Contact() {
                       {t.selectPlaceholder}
                     </option>
 
-                    <option value="venta-de-inmueble">Venta de inmueble</option>
-                    <option value="herencia">Herencia</option>
-                    <option value="embargo">Embargo</option>
-                    <option value="renta-vitalicia">Renta vitalicia</option>
+                    <option value="venta-de-inmueble">
+                      Venta de inmueble
+                    </option>
+                    <option value="herencia">
+                      Herencia
+                    </option>
+                    <option value="embargo">
+                      Embargo
+                    </option>
+                    <option value="renta-vitalicia">
+                      Renta vitalicia
+                    </option>
                   </select>
                 </div>
 
