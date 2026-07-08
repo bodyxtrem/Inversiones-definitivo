@@ -6,9 +6,9 @@ export const Route = createFileRoute("/como-trabajamos")({
   head: () => ({
     meta: [
       { title: "Cómo trabajamos — Royal Group" },
-      { name: "description", content: "Nuestro sistema en cuatro pasos: solicitud, estudio, propuesta y firma." },
+      { name: "description", content: "Conoce nuestro proceso en cuatro pasos para ofrecer soluciones inmobiliarias y financieras de forma ágil y segura." },
       { property: "og:title", content: "Cómo trabajamos — Royal Group" },
-      { property: "og:description", content: "Un método probado, cercano y eficaz." },
+      { property: "og:description", content: "Un proceso transparente, seguro y diseñado para proteger tus intereses." },
     ],
   }),
   component: How,
@@ -16,14 +16,14 @@ export const Route = createFileRoute("/como-trabajamos")({
 
 const content = {
   es: {
-    eyebrow: "Nuestro sistema",
-    title: "En cuatro sencillos pasos",
-    subtitle: "Un proceso claro y transparente, del primer contacto a la firma en notaría.",
+    eyebrow: "Cómo trabajamos",
+    title: "Un proceso claro en cuatro pasos",
+    subtitle: "Te acompañamos desde el primer contacto hasta la firma ante notario con un proceso ágil, transparente y totalmente personalizado.",
     stepLabel: (i: number, total: number) => `Paso ${i} de ${total}`,
     steps: [
-      { t: "Solicitud", d: "Solicita un estudio gratuito para valorar la solución que mejor se adapta a tus necesidades." },
-      { t: "Estudio", d: "Un asesor analizará la viabilidad y la documentación necesaria para preparar la propuesta." },
-      { t: "Propuesta", d: "Recibirás una propuesta adaptada a tus necesidades y al valor del inmueble." },
+      { t: "Solicitud", d: "Solicita un estudio gratuito para que podamos analizar tu situación y ofrecerte la solución más adecuada." },
+      { t: "Estudio", d: "Nuestro equipo analizará la viabilidad de la operación y revisará toda la documentación necesaria para elaborar una propuesta." },
+      { t: "Propuesta personalizada", d: "Recibirás una propuesta adaptada a tus necesidades y al valor del inmueble." },
       { t: "Firma", d: "Te acompañamos durante todo el proceso hasta la firma ante notario." },
     ],
   },

@@ -45,10 +45,10 @@ const content = {
       { title: "Garantías", text: "Nuestras operaciones están respaldadas por el propio inmueble, reduciendo el riesgo al máximo." },
       { title: "Personas", text: "Cada cliente cuenta con un asesor especializado desde el primer contacto hasta la firma en notaría." },
     ],
-    methodEyebrow: "Nuestro sistema",
+    methodEyebrow: "Cómo trabajamos",
     methodTitle: "En cuatro sencillos pasos",
     steps: [
-      { t: "Solicitud", d: "Solicita un estudio gratuito para valorar la solución que mejor se adapta a tus necesidades." },
+      { t: "Solicitud", d: "Solicita un estudio gratuito para que podamos analizar tu situación y ofrecerte la solución más adecuada." },
       { t: "Estudio", d: "Un asesor analizará la viabilidad y la documentación necesaria para preparar la propuesta." },
       { t: "Propuesta", d: "Recibirás una propuesta adaptada a tus necesidades y al valor del inmueble." },
       { t: "Firma", d: "Te acompañamos durante todo el proceso hasta la firma ante notario." },
