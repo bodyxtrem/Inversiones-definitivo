@@ -17,7 +17,8 @@ export const Route = createFileRoute("/contacto-interes")({
       },
       {
         property: "og:title",
-        content: "Descubre tu próxima oportunidad de inversión — Royal Group",
+        content:
+          "Descubre tu próxima oportunidad de inversión — Royal Group",
       },
       {
         property: "og:description",
@@ -167,7 +168,9 @@ function Contact() {
         phone: String(formData.get("phone") ?? "").trim(),
         interest: String(formData.get("interest") ?? "").trim(),
         message: String(formData.get("message") ?? "").trim(),
-        source: String(formData.get("source") ?? "contacto-interes"),
+        source: String(
+          formData.get("source") ?? "contacto-interes",
+        ),
       };
 
       if (
@@ -219,60 +222,10 @@ function Contact() {
 
       <section className="py-20 px-6">
         <div className="mx-auto max-w-6xl grid lg:grid-cols-2 gap-16">
-          <div className="lg:order-2">
-            <h2 className="font-serif text-2xl text-teal-deep">
-              {t.h2}
-            </h2>
-
-            <p className="mt-4 text-muted-foreground">
-              {t.contactText}
-            </p>
-
-            <ul className="mt-8 space-y-6">
-              <li className="flex gap-4">
-                <span className="w-12 h-12 rounded-full bg-teal-deep text-gold flex items-center justify-center shrink-0">
-                  <MapPin size={20} />
-                </span>
-
-                <div>
-                  <p className="font-medium">{t.address}</p>
-                  <p className="text-muted-foreground">
-                    Av. Diagonal 539, 1º 1ª, 08029 Barcelona
-                  </p>
-                </div>
-              </li>
-
-              <li className="flex gap-4">
-                <span className="w-12 h-12 rounded-full bg-teal-deep text-gold flex items-center justify-center shrink-0">
-                  <Mail size={20} />
-                </span>
-
-                <div>
-                  <p className="font-medium">{t.email}</p>
-                  <p className="text-muted-foreground">
-                    info@royalgroup.com
-                  </p>
-                </div>
-              </li>
-
-              <li className="flex gap-4">
-                <span className="w-12 h-12 rounded-full bg-teal-deep text-gold flex items-center justify-center shrink-0">
-                  <Phone size={20} />
-                </span>
-
-                <div>
-                  <p className="font-medium">{t.phone}</p>
-                  <p className="text-muted-foreground">
-                    +34 900 000 000
-                  </p>
-                </div>
-              </li>
-            </ul>
-          </div>
-
+          {/* FORMULARIO A LA IZQUIERDA */}
           <form
             onSubmit={handleSubmit}
-            className="bg-secondary p-8 rounded-lg space-y-4 lg:order-1"
+            className="bg-secondary p-8 rounded-lg space-y-4"
           >
             {sent ? (
               <div className="text-center py-16">
@@ -368,12 +321,15 @@ function Contact() {
                     <option value="venta-de-inmueble">
                       Venta de inmueble
                     </option>
+
                     <option value="herencia">
                       Herencia
                     </option>
+
                     <option value="embargo">
                       Embargo
                     </option>
+
                     <option value="renta-vitalicia">
                       Renta vitalicia
                     </option>
@@ -412,7 +368,9 @@ function Contact() {
                       const value = textarea.value.trim();
 
                       if (value.length === 0) {
-                        textarea.setCustomValidity(t.messageRequired);
+                        textarea.setCustomValidity(
+                          t.messageRequired,
+                        );
                       } else if (value.length < 15) {
                         textarea.setCustomValidity(t.messageMin);
                       }
@@ -448,6 +406,61 @@ function Contact() {
               </>
             )}
           </form>
+
+          {/* INFORMACIÓN A LA DERECHA */}
+          <div>
+            <h2 className="font-serif text-2xl text-teal-deep">
+              {t.h2}
+            </h2>
+
+            <p className="mt-4 text-muted-foreground">
+              {t.contactText}
+            </p>
+
+            <ul className="mt-8 space-y-6">
+              <li className="flex gap-4">
+                <span className="w-12 h-12 rounded-full bg-teal-deep text-gold flex items-center justify-center shrink-0">
+                  <MapPin size={20} />
+                </span>
+
+                <div>
+                  <p className="font-medium">{t.address}</p>
+
+                  <p className="text-muted-foreground">
+                    Av. Diagonal 539, 1º 1ª, 08029 Barcelona
+                  </p>
+                </div>
+              </li>
+
+              <li className="flex gap-4">
+                <span className="w-12 h-12 rounded-full bg-teal-deep text-gold flex items-center justify-center shrink-0">
+                  <Mail size={20} />
+                </span>
+
+                <div>
+                  <p className="font-medium">{t.email}</p>
+
+                  <p className="text-muted-foreground">
+                    info@royalgroup.com
+                  </p>
+                </div>
+              </li>
+
+              <li className="flex gap-4">
+                <span className="w-12 h-12 rounded-full bg-teal-deep text-gold flex items-center justify-center shrink-0">
+                  <Phone size={20} />
+                </span>
+
+                <div>
+                  <p className="font-medium">{t.phone}</p>
+
+                  <p className="text-muted-foreground">
+                    +34 900 000 000
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
     </SiteLayout>
