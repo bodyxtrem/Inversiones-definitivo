@@ -1,7 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { PageHero, SiteLayout } from "@/components/site-layout";
 import { usePick } from "@/lib/lang";
-import { FileText, Search, Handshake, PenLine, Clock3, ShieldCheck, Users } from "lucide-react";}
+import { FileText, Search, Handshake, PenLine, Clock3, ShieldCheck, Users } from "lucide-react";
 
 export const Route = createFileRoute("/como-trabajamos")({
   head: () => ({
