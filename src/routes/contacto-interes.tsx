@@ -365,10 +365,10 @@ function Contact() {
                       {t.selectPlaceholder}
                     </option>
 
-                    <option value="opcion-1">Opción 1</option>
-                    <option value="opcion-2">Opción 2</option>
-                    <option value="opcion-3">Opción 3</option>
-                    <option value="opcion-4">Opción 4</option>
+                    <option value="venta-de-inmueble">Venta de inmueble</option>
+                    <option value="herencia">Herencia</option>
+                    <option value="embargo">Embargo</option>
+                    <option value="renta-vitalicia">Renta vitalicia</option>
                   </select>
                 </div>
 
