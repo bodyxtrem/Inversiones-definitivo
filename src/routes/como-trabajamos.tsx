@@ -1,7 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { PageHero, SiteLayout } from "@/components/site-layout";
 import { usePick } from "@/lib/lang";
-import { FileText, Search, Handshake, PenLine, Clock3, ShieldCheck, Users } from "lucide-react";
 
 export const Route = createFileRoute("/como-trabajamos")({
   head: () => ({
@@ -55,7 +54,6 @@ const content = {
 };
 
 const numbers = ["1.", "2.", "3.", "4."];
-const icons=[FileText,Search,Handshake,PenLine];
 
 function How() {
   const t = usePick(content);
