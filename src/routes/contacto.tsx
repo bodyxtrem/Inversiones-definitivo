@@ -4,255 +4,120 @@ import { Mail, MapPin, Phone } from "lucide-react";
 import { useState } from "react";
 import { usePick } from "@/lib/lang";
 
-export const Route = createFileRoute("/contacto-interes")({
+export const Route = createFileRoute("/contacto")({
   head: () => ({
     meta: [
-      {
-        title: "Solicita información — Royal Group",
-      },
-      {
-        name: "description",
-        content:
-          "Solicita un estudio gratuito y sin compromiso. Un asesor de Royal Group contactará contigo en un plazo de 48 a 72 horas.",
-      },
-      {
-        property: "og:title",
-        content: "Solicita información — Royal Group",
-      },
-      {
-        property: "og:description",
-        content:
-          "Cuéntanos tu caso y nuestro equipo estudiará la mejor solución para ti.",
-      },
-      {
-        name: "robots",
-        content: "noindex, nofollow",
-      },
+      { title: "Contacto — Royal Group" },
+      { name: "description", content: "Contacta con Royal Group y recibe un estudio gratuito y sin compromiso en un plazo de 48 a 72 horas." },
+      { property: "og:title", content: "Contacto — Royal Group" },
+      { property: "og:description", content: "Cuéntanos tu caso y encontraremos la mejor solución para ti." },
     ],
   }),
-  component: ContactoInteres,
+  component: Contact,
 });
 
 const content = {
   es: {
-    eyebrow: "Estudio gratuito",
+    eyebrow: "Contacto",
     title: "Cuéntanos tu caso",
-    subtitle:
-      "Déjanos tus datos y analizaremos tu operación sin compromiso. Te responderemos en un plazo de 48 a 72 horas.",
+    subtitle: "Analizamos tu operación sin compromiso y te respondemos en un plazo de 48 a 72 horas.",
     h2: "Información de contacto",
-    address: "Dirección",
-    email: "Email",
-    phone: "Teléfono",
-    name: "Nombre",
-    message: "Cuéntanos brevemente tu caso",
-    send: "Solicitar información",
+    address: "Dirección", email: "Email", phone: "Teléfono",
+    name: "Nombre", message: "Mensaje", send: "Enviar mensaje",
     thanks: "¡Solicitud recibida!",
-    thanksSub:
-      "Hemos recibido tus datos. Un asesor se pondrá en contacto contigo en un plazo máximo de 48 a 72 horas.",
+    thanksSub: "Hemos recibido tu solicitud. Un asesor se pondrá en contacto contigo en un plazo máximo de 48 a 72 horas.",
   },
   en: {
-    eyebrow: "Free assessment",
-    title: "Tell us about your case",
-    subtitle:
-      "Leave us your details and we will review your situation with no obligation. We will contact you within 48 to 72 hours.",
+    eyebrow: "Contact",
+    title: "Let's talk about your project",
+    subtitle: "Free, no-obligation study in 48 hours.",
     h2: "Contact details",
-    address: "Address",
-    email: "Email",
-    phone: "Phone",
-    name: "Name",
-    message: "Tell us briefly about your case",
-    send: "Request information",
-    thanks: "Request received!",
-    thanksSub:
-      "We have received your details. An advisor will contact you within 48 to 72 hours.",
+    address: "Address", email: "Email", phone: "Phone",
+    name: "Name", message: "Message", send: "Send message",
+    thanks: "Thank you!",
+    thanksSub: "We've received your message. We'll get back to you within 48 hours.",
   },
   fr: {
-    eyebrow: "Étude gratuite",
-    title: "Parlez-nous de votre situation",
-    subtitle:
-      "Laissez-nous vos coordonnées et nous étudierons votre situation sans engagement. Nous vous contacterons sous 48 à 72 heures.",
+    eyebrow: "Contact",
+    title: "Parlons de votre projet",
+    subtitle: "Étude gratuite et sans engagement en 48 heures.",
     h2: "Coordonnées",
-    address: "Adresse",
-    email: "E-mail",
-    phone: "Téléphone",
-    name: "Nom",
-    message: "Décrivez-nous brièvement votre situation",
-    send: "Demander des informations",
-    thanks: "Demande reçue !",
-    thanksSub:
-      "Nous avons bien reçu vos coordonnées. Un conseiller vous contactera sous 48 à 72 heures.",
+    address: "Adresse", email: "E-mail", phone: "Téléphone",
+    name: "Nom", message: "Message", send: "Envoyer le message",
+    thanks: "Merci !",
+    thanksSub: "Nous avons bien reçu votre message. Nous vous répondrons sous 48 heures.",
   },
 };
 
-function ContactoInteres() {
+function Contact() {
   const [sent, setSent] = useState(false);
   const t = usePick(content);
-
-  const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
-    event.preventDefault();
-
-    /*
-     * Aquí debes conectar el formulario con tu herramienta
-     * de captación de leads antes de mostrar el mensaje de éxito.
-     */
-
-    setSent(true);
-  };
-
   return (
     <SiteLayout>
-      <PageHero
-        eyebrow={t.eyebrow}
-        title={t.title}
-        subtitle={t.subtitle}
-      />
-
-      <section className="px-6 py-20">
-        <div className="mx-auto grid max-w-6xl gap-16 lg:grid-cols-2">
+      <PageHero eyebrow={t.eyebrow} title={t.title} subtitle={t.subtitle} />
+      <section className="py-20 px-6">
+        <div className="mx-auto max-w-6xl grid lg:grid-cols-2 gap-16">
           <div>
-            <h2 className="font-serif text-2xl text-teal-deep">
-              {t.h2}
-            </h2>
-
+            <h2 className="font-serif text-2xl text-teal-deep">{t.h2}</h2>
             <ul className="mt-8 space-y-6">
               <li className="flex gap-4">
-                <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-teal-deep text-gold">
+                <span className="w-12 h-12 rounded-full bg-teal-deep text-gold flex items-center justify-center shrink-0">
                   <MapPin size={20} />
                 </span>
-
                 <div>
                   <p className="font-medium">{t.address}</p>
-                  <p className="text-muted-foreground">
-                    Av. Diagonal 407 1º 2ª, 08008 Barcelona
-                  </p>
+                  <p className="text-muted-foreground">Av. Diagonal 407 1º 2ª, 08008 Barcelona</p>
                 </div>
               </li>
-
               <li className="flex gap-4">
-                <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-teal-deep text-gold">
+                <span className="w-12 h-12 rounded-full bg-teal-deep text-gold flex items-center justify-center shrink-0">
                   <Mail size={20} />
                 </span>
-
                 <div>
                   <p className="font-medium">{t.email}</p>
-                  <p className="text-muted-foreground">
-                    info@royalgroup.com
-                  </p>
+                  <p className="text-muted-foreground">info@royalgroup.com</p>
                 </div>
               </li>
-
               <li className="flex gap-4">
-                <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-teal-deep text-gold">
+                <span className="w-12 h-12 rounded-full bg-teal-deep text-gold flex items-center justify-center shrink-0">
                   <Phone size={20} />
                 </span>
-
                 <div>
                   <p className="font-medium">{t.phone}</p>
-                  <p className="text-muted-foreground">
-                    +34 900 000 000
-                  </p>
+                  <p className="text-muted-foreground">+34 900 000 000</p>
                 </div>
               </li>
             </ul>
           </div>
 
           <form
-            onSubmit={handleSubmit}
-            className="space-y-4 rounded-lg bg-secondary p-8"
+            onSubmit={(e) => { e.preventDefault(); setSent(true); }}
+            className="bg-secondary p-8 rounded-lg space-y-4"
           >
             {sent ? (
-              <div className="py-16 text-center">
-                <h3 className="font-serif text-2xl text-teal-deep">
-                  {t.thanks}
-                </h3>
-
-                <p className="mt-3 text-muted-foreground">
-                  {t.thanksSub}
-                </p>
+              <div className="text-center py-16">
+                <h3 className="font-serif text-2xl text-teal-deep">{t.thanks}</h3>
+                <p className="mt-3 text-muted-foreground">{t.thanksSub}</p>
               </div>
             ) : (
               <>
-                <input
-                  type="hidden"
-                  name="source"
-                  value="contacto-interes"
-                />
-
                 <div>
-                  <label
-                    htmlFor="lead-name"
-                    className="mb-2 block text-sm font-medium"
-                  >
-                    {t.name}
-                  </label>
-
-                  <input
-                    id="lead-name"
-                    name="name"
-                    type="text"
-                    autoComplete="name"
-                    required
-                    className="w-full rounded-md border border-border bg-background px-4 py-3 focus:outline-none focus:ring-2 focus:ring-teal"
-                  />
+                  <label className="block text-sm mb-2 font-medium">{t.name}</label>
+                  <input required className="w-full px-4 py-3 rounded-md border border-border bg-background focus:outline-none focus:ring-2 focus:ring-teal" />
                 </div>
-
                 <div>
-                  <label
-                    htmlFor="lead-email"
-                    className="mb-2 block text-sm font-medium"
-                  >
-                    {t.email}
-                  </label>
-
-                  <input
-                    id="lead-email"
-                    name="email"
-                    type="email"
-                    autoComplete="email"
-                    required
-                    className="w-full rounded-md border border-border bg-background px-4 py-3 focus:outline-none focus:ring-2 focus:ring-teal"
-                  />
+                  <label className="block text-sm mb-2 font-medium">{t.email}</label>
+                  <input required type="email" className="w-full px-4 py-3 rounded-md border border-border bg-background focus:outline-none focus:ring-2 focus:ring-teal" />
                 </div>
-
                 <div>
-                  <label
-                    htmlFor="lead-phone"
-                    className="mb-2 block text-sm font-medium"
-                  >
-                    {t.phone}
-                  </label>
-
-                  <input
-                    id="lead-phone"
-                    name="phone"
-                    type="tel"
-                    autoComplete="tel"
-                    required
-                    className="w-full rounded-md border border-border bg-background px-4 py-3 focus:outline-none focus:ring-2 focus:ring-teal"
-                  />
+                  <label className="block text-sm mb-2 font-medium">{t.phone}</label>
+                  <input type="tel" className="w-full px-4 py-3 rounded-md border border-border bg-background focus:outline-none focus:ring-2 focus:ring-teal" />
                 </div>
-
                 <div>
-                  <label
-                    htmlFor="lead-message"
-                    className="mb-2 block text-sm font-medium"
-                  >
-                    {t.message}
-                  </label>
-
-                  <textarea
-                    id="lead-message"
-                    name="message"
-                    rows={5}
-                    required
-                    className="w-full rounded-md border border-border bg-background px-4 py-3 focus:outline-none focus:ring-2 focus:ring-teal"
-                  />
+                  <label className="block text-sm mb-2 font-medium">{t.message}</label>
+                  <textarea required rows={5} className="w-full px-4 py-3 rounded-md border border-border bg-background focus:outline-none focus:ring-2 focus:ring-teal" />
                 </div>
-
-                <button
-                  type="submit"
-                  className="w-full rounded-full bg-teal-deep py-4 text-white transition hover:bg-teal"
-                >
+                <button type="submit" className="w-full bg-teal-deep text-white py-4 rounded-full hover:bg-teal transition">
                   {t.send}
                 </button>
               </>
