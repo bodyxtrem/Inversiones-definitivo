@@ -7,22 +7,20 @@ import { usePick } from "@/lib/lang";
 export const Route = createFileRoute("/contacto-interes")({
   head: () => ({
     meta: [
-      {
-        title: "Solicita información — Royal Group",
-      },
+      { title: "Solicita información — Royal Group" },
       {
         name: "description",
         content:
-          "Solicita un estudio gratuito y sin compromiso. Un asesor de Royal Group contactará contigo en un plazo de 48 a 72 horas.",
+          "Déjanos tus datos y descubre las oportunidades de inversión que mejor se adaptan a tus objetivos.",
       },
       {
         property: "og:title",
-        content: "Solicita información — Royal Group",
+        content: "Descubre tu próxima oportunidad de inversión — Royal Group",
       },
       {
         property: "og:description",
         content:
-          "Cuéntanos tu caso y nuestro equipo estudiará la mejor solución para ti.",
+          "Completa el formulario y un asesor especializado se pondrá en contacto contigo.",
       },
       {
         name: "robots",
@@ -30,74 +28,81 @@ export const Route = createFileRoute("/contacto-interes")({
       },
     ],
   }),
-  component: ContactoInteres,
+  component: Contact,
 });
 
 const content = {
   es: {
-    eyebrow: "Estudio gratuito",
-    title: "Cuéntanos tu caso",
+    eyebrow: "Oportunidades de inversión",
+    title: "Encuentra la inversión que mejor se adapta a ti",
     subtitle:
-      "Déjanos tus datos y analizaremos tu operación sin compromiso. Te responderemos en un plazo de 48 a 72 horas.",
-    h2: "Información de contacto",
-    address: "Dirección",
+      "Déjanos tus datos y uno de nuestros asesores analizará tu perfil para presentarte oportunidades adaptadas a tus objetivos.",
+    h2: "Habla con un asesor",
+    contactText:
+      "Completa el formulario y nuestro equipo se pondrá en contacto contigo para ofrecerte información personalizada y sin compromiso.",
+    address: "Oficina",
     email: "Email",
     phone: "Teléfono",
-    name: "Nombre",
-    message: "Cuéntanos brevemente tu caso",
-    send: "Solicitar información",
+    name: "Nombre y apellidos",
+    emailField: "Correo electrónico",
+    phoneField: "Teléfono",
+    interest: "¿Qué opción te interesa?",
+    selectPlaceholder: "Selecciona una opción",
+    message: "¿Qué estás buscando?",
+    send: "Quiero recibir información",
     thanks: "¡Solicitud recibida!",
     thanksSub:
-      "Hemos recibido tus datos. Un asesor se pondrá en contacto contigo en un plazo máximo de 48 a 72 horas.",
+      "Gracias por tu interés. Uno de nuestros asesores se pondrá en contacto contigo en un plazo de 48 a 72 horas.",
   },
   en: {
-    eyebrow: "Free assessment",
-    title: "Tell us about your case",
+    eyebrow: "Investment opportunities",
+    title: "Find the investment that best suits you",
     subtitle:
-      "Leave us your details and we will review your situation with no obligation. We will contact you within 48 to 72 hours.",
-    h2: "Contact details",
-    address: "Address",
+      "Leave us your details and one of our advisors will review your profile and present opportunities aligned with your goals.",
+    h2: "Speak with an advisor",
+    contactText:
+      "Complete the form and our team will contact you with personalized, no-obligation information.",
+    address: "Office",
     email: "Email",
     phone: "Phone",
-    name: "Name",
-    message: "Tell us briefly about your case",
-    send: "Request information",
+    name: "Full name",
+    emailField: "Email address",
+    phoneField: "Phone",
+    interest: "Which option are you interested in?",
+    selectPlaceholder: "Select an option",
+    message: "What are you looking for?",
+    send: "I want more information",
     thanks: "Request received!",
     thanksSub:
-      "We have received your details. An advisor will contact you within 48 to 72 hours.",
+      "Thank you for your interest. One of our advisors will contact you within 48 to 72 hours.",
   },
   fr: {
-    eyebrow: "Étude gratuite",
-    title: "Parlez-nous de votre situation",
+    eyebrow: "Opportunités d’investissement",
+    title: "Trouvez l’investissement qui vous correspond",
     subtitle:
-      "Laissez-nous vos coordonnées et nous étudierons votre situation sans engagement. Nous vous contacterons sous 48 à 72 heures.",
-    h2: "Coordonnées",
-    address: "Adresse",
+      "Laissez-nous vos coordonnées et l’un de nos conseillers analysera votre profil afin de vous proposer des opportunités adaptées.",
+    h2: "Parlez à un conseiller",
+    contactText:
+      "Remplissez le formulaire et notre équipe vous contactera avec des informations personnalisées et sans engagement.",
+    address: "Bureau",
     email: "E-mail",
     phone: "Téléphone",
-    name: "Nom",
-    message: "Décrivez-nous brièvement votre situation",
-    send: "Demander des informations",
+    name: "Nom et prénom",
+    emailField: "Adresse e-mail",
+    phoneField: "Téléphone",
+    interest: "Quelle option vous intéresse ?",
+    selectPlaceholder: "Sélectionnez une option",
+    message: "Que recherchez-vous ?",
+    send: "Recevoir des informations",
     thanks: "Demande reçue !",
     thanksSub:
-      "Nous avons bien reçu vos coordonnées. Un conseiller vous contactera sous 48 à 72 heures.",
+      "Merci pour votre intérêt. L’un de nos conseillers vous contactera sous 48 à 72 heures.",
   },
 };
 
-function ContactoInteres() {
+function Contact() {
   const [sent, setSent] = useState(false);
   const t = usePick(content);
-
-  const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
-    event.preventDefault();
-
-    /*
-     * Aquí debes conectar el formulario con tu herramienta
-     * de captación de leads antes de mostrar el mensaje de éxito.
-     */
-
-    setSent(true);
-  };
 
   return (
     <SiteLayout>
@@ -107,19 +112,22 @@ function ContactoInteres() {
         subtitle={t.subtitle}
       />
 
-      <section className="px-6 py-20">
-        <div className="mx-auto grid max-w-6xl gap-16 lg:grid-cols-2">
+      <section className="py-20 px-6">
+        <div className="mx-auto max-w-6xl grid lg:grid-cols-2 gap-16">
           <div>
             <h2 className="font-serif text-2xl text-teal-deep">
               {t.h2}
             </h2>
 
+            <p className="mt-4 text-muted-foreground">
+              {t.contactText}
+            </p>
+
             <ul className="mt-8 space-y-6">
               <li className="flex gap-4">
-                <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-teal-deep text-gold">
+                <span className="w-12 h-12 rounded-full bg-teal-deep text-gold flex items-center justify-center shrink-0">
                   <MapPin size={20} />
                 </span>
-
                 <div>
                   <p className="font-medium">{t.address}</p>
                   <p className="text-muted-foreground">
@@ -129,10 +137,9 @@ function ContactoInteres() {
               </li>
 
               <li className="flex gap-4">
-                <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-teal-deep text-gold">
+                <span className="w-12 h-12 rounded-full bg-teal-deep text-gold flex items-center justify-center shrink-0">
                   <Mail size={20} />
                 </span>
-
                 <div>
                   <p className="font-medium">{t.email}</p>
                   <p className="text-muted-foreground">
@@ -142,10 +149,9 @@ function ContactoInteres() {
               </li>
 
               <li className="flex gap-4">
-                <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-teal-deep text-gold">
+                <span className="w-12 h-12 rounded-full bg-teal-deep text-gold flex items-center justify-center shrink-0">
                   <Phone size={20} />
                 </span>
-
                 <div>
                   <p className="font-medium">{t.phone}</p>
                   <p className="text-muted-foreground">
@@ -157,15 +163,17 @@ function ContactoInteres() {
           </div>
 
           <form
-            onSubmit={handleSubmit}
-            className="space-y-4 rounded-lg bg-secondary p-8"
+            onSubmit={(e) => {
+              e.preventDefault();
+              setSent(true);
+            }}
+            className="bg-secondary p-8 rounded-lg space-y-4"
           >
             {sent ? (
-              <div className="py-16 text-center">
+              <div className="text-center py-16">
                 <h3 className="font-serif text-2xl text-teal-deep">
                   {t.thanks}
                 </h3>
-
                 <p className="mt-3 text-muted-foreground">
                   {t.thanksSub}
                 </p>
@@ -180,78 +188,98 @@ function ContactoInteres() {
 
                 <div>
                   <label
-                    htmlFor="lead-name"
-                    className="mb-2 block text-sm font-medium"
+                    htmlFor="name"
+                    className="block text-sm mb-2 font-medium"
                   >
                     {t.name}
                   </label>
-
                   <input
-                    id="lead-name"
+                    id="name"
                     name="name"
                     type="text"
                     autoComplete="name"
                     required
-                    className="w-full rounded-md border border-border bg-background px-4 py-3 focus:outline-none focus:ring-2 focus:ring-teal"
+                    className="w-full px-4 py-3 rounded-md border border-border bg-background focus:outline-none focus:ring-2 focus:ring-teal"
                   />
                 </div>
 
                 <div>
                   <label
-                    htmlFor="lead-email"
-                    className="mb-2 block text-sm font-medium"
+                    htmlFor="email"
+                    className="block text-sm mb-2 font-medium"
                   >
-                    {t.email}
+                    {t.emailField}
                   </label>
-
                   <input
-                    id="lead-email"
+                    id="email"
                     name="email"
                     type="email"
                     autoComplete="email"
                     required
-                    className="w-full rounded-md border border-border bg-background px-4 py-3 focus:outline-none focus:ring-2 focus:ring-teal"
+                    className="w-full px-4 py-3 rounded-md border border-border bg-background focus:outline-none focus:ring-2 focus:ring-teal"
                   />
                 </div>
 
                 <div>
                   <label
-                    htmlFor="lead-phone"
-                    className="mb-2 block text-sm font-medium"
+                    htmlFor="phone"
+                    className="block text-sm mb-2 font-medium"
                   >
-                    {t.phone}
+                    {t.phoneField}
                   </label>
-
                   <input
-                    id="lead-phone"
+                    id="phone"
                     name="phone"
                     type="tel"
                     autoComplete="tel"
                     required
-                    className="w-full rounded-md border border-border bg-background px-4 py-3 focus:outline-none focus:ring-2 focus:ring-teal"
+                    className="w-full px-4 py-3 rounded-md border border-border bg-background focus:outline-none focus:ring-2 focus:ring-teal"
                   />
                 </div>
 
                 <div>
                   <label
-                    htmlFor="lead-message"
-                    className="mb-2 block text-sm font-medium"
+                    htmlFor="interest"
+                    className="block text-sm mb-2 font-medium"
+                  >
+                    {t.interest}
+                  </label>
+                  <select
+                    id="interest"
+                    name="interest"
+                    required
+                    defaultValue=""
+                    className="w-full px-4 py-3 rounded-md border border-border bg-background focus:outline-none focus:ring-2 focus:ring-teal"
+                  >
+                    <option value="" disabled>
+                      {t.selectPlaceholder}
+                    </option>
+                    <option value="opcion-1">Opción 1</option>
+                    <option value="opcion-2">Opción 2</option>
+                    <option value="opcion-3">Opción 3</option>
+                    <option value="opcion-4">Opción 4</option>
+                  </select>
+                </div>
+
+                <div>
+                  <label
+                    htmlFor="message"
+                    className="block text-sm mb-2 font-medium"
                   >
                     {t.message}
                   </label>
-
                   <textarea
-                    id="lead-message"
+                    id="message"
                     name="message"
                     rows={5}
                     required
-                    className="w-full rounded-md border border-border bg-background px-4 py-3 focus:outline-none focus:ring-2 focus:ring-teal"
+                    className="w-full px-4 py-3 rounded-md border border-border bg-background focus:outline-none focus:ring-2 focus:ring-teal"
                   />
                 </div>
 
                 <button
                   type="submit"
-                  className="w-full rounded-full bg-teal-deep py-4 text-white transition hover:bg-teal"
+                  className="w-full bg-teal-deep text-white py-4 rounded-full hover:bg-teal transition"
                 >
                   {t.send}
                 </button>
