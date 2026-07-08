@@ -8,9 +8,9 @@ export const Route = createFileRoute("/contacto")({
   head: () => ({
     meta: [
       { title: "Contacto — Royal Group" },
-      { name: "description", content: "Contacta con Royal Group en Barcelona. Estudio gratuito y sin compromiso en 48-72 horas." },
+      { name: "description", content: "Contacta con Royal Group y recibe un estudio gratuito y sin compromiso en un plazo de 48 a 72 horas." },
       { property: "og:title", content: "Contacto — Royal Group" },
-      { property: "og:description", content: "Hablemos de tu proyecto." },
+      { property: "og:description", content: "Cuéntanos tu caso y encontraremos la mejor solución para ti." },
     ],
   }),
   component: Contact,
@@ -19,13 +19,13 @@ export const Route = createFileRoute("/contacto")({
 const content = {
   es: {
     eyebrow: "Contacto",
-    title: "Hablemos de tu proyecto",
-    subtitle: "Estudio gratuito y sin compromiso en 48-72 horas.",
-    h2: "Datos de contacto",
+    title: "Cuéntanos tu caso",
+    subtitle: "Analizamos tu operación sin compromiso y te respondemos en un plazo de 48 a 72 horas.",
+    h2: "Información de contacto",
     address: "Dirección", email: "Email", phone: "Teléfono",
     name: "Nombre", message: "Mensaje", send: "Enviar mensaje",
-    thanks: "¡Gracias!",
-    thanksSub: "Hemos recibido tu mensaje. Te contactaremos en menos de 48-72 horas.",
+    thanks: "¡Solicitud recibida!",
+    thanksSub: "Hemos recibido tu solicitud. Un asesor se pondrá en contacto contigo en un plazo máximo de 48 a 72 horas.",
   },
   en: {
     eyebrow: "Contact",

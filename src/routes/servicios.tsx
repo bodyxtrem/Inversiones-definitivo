@@ -7,9 +7,9 @@ export const Route = createFileRoute("/servicios")({
   head: () => ({
     meta: [
       { title: "Servicios — Royal Group" },
-      { name: "description", content: "Venta de inmueble, herencias, embargos y renta vitalicia. Soluciones inmobiliarias a medida." },
+      { name: "description", content: "Venta de inmuebles, herencias, embargos y renta vitalicia. Soluciones inmobiliarias y financieras a medida." },
       { property: "og:title", content: "Servicios — Royal Group" },
-      { property: "og:description", content: "Soluciones inmobiliarias a medida." },
+      { property: "og:description", content: "Soluciones inmobiliarias y financieras adaptadas a cada cliente." },
     ],
   }),
   component: Services,
@@ -18,16 +18,16 @@ export const Route = createFileRoute("/servicios")({
 const content = {
   es: {
     eyebrow: "Servicios",
-    title: "Soluciones inmobiliarias a medida",
-    subtitle: "Nuestros clientes son la prioridad. Cada operación se estudia y ejecuta con el máximo rigor.",
-    h2: "Garantía y eficacia",
-    p: "Desde el primer contacto hasta la finalización de la operación, nuestro equipo de profesionales estará implicado al máximo en tu caso. Así conseguimos ofrecer, en un corto espacio de tiempo, soluciones óptimas, eficientes y sin riesgos.",
+    title: "Soluciones inmobiliarias y financieras a medida",
+    subtitle: "Cada operación se analiza de forma personalizada para ofrecer la mejor solución con total seguridad y transparencia.",
+    h2: "Experiencia, garantía y eficacia",
+    p: "Desde el primer contacto hasta la firma de la operación, nuestro equipo te acompaña en todo el proceso. Analizamos cada caso con rigor para ofrecer soluciones inmobiliarias y financieras ágiles, eficaces y con todas las garantías.",
     cta: "Solicitar estudio gratuito",
     services: [
       { t: "Venta de inmueble", q: "¿Vendes tu casa porque necesitas liquidez?", d: "Te adelantamos hasta el 50% del valor de venta para que puedas hacer frente a lo que no puede esperar. Vende sin prisa y consigue el mejor precio por tu vivienda." },
-      { t: "Herencias", q: "¿Necesitas liquidez para aceptar una herencia?", d: "Si has heredado una propiedad y quieres venderla pero no tienes liquidez para afrontar los gastos, te avanzamos la suma necesaria para poder venderla sin problemas." },
-      { t: "Embargos", q: "¿Vender con embargos sobre la propiedad?", d: "Sabemos lo difícil que es vender una propiedad con embargos. Te adelantamos el dinero necesario para liquidarlos y facilitar la venta sin miedo a la ejecución." },
-      { t: "Renta vitalicia", q: "¿Renta vitalicia pero necesitas el importe ahora?", d: "En muchos casos, una mensualidad no resuelve el problema. Adelantamos el importe completo en un único pago en el momento de la firma del contrato." },
+      { t: "Herencias", q: "¿Necesitas liquidez para aceptar una herencia?", d: "Si has heredado un inmueble y quieres venderlo, adelantamos el capital necesario para cubrir los gastos y facilitar la operación sin complicaciones." },
+      { t: "Embargos", q: "¿Quieres vender un inmueble con embargos?", d: "Sabemos lo difícil que es vender una propiedad con embargos. Te adelantamos el dinero necesario para liquidarlos y facilitar la venta sin miedo a la ejecución." },
+      { t: "Renta vitalicia", q: "¿Necesitas disponer del importe de tu renta vitalicia?", d: "Si necesitas liquidez inmediata, adelantamos el importe completo de tu renta vitalicia en un único pago durante la firma de la operación." },
     ],
   },
   en: {
