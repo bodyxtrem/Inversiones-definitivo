@@ -24,7 +24,7 @@ const content = {
       { t: "Solicitud", d: "Solicita un estudio gratuito para que podamos analizar tu situación y ofrecerte la solución más adecuada." },
       { t: "Estudio", d: "Nuestro equipo analizará la viabilidad de la operación y revisará toda la documentación necesaria para elaborar una propuesta." },
       { t: "Propuesta personalizada", d: "Recibirás una propuesta personalizada, ajustada a tus necesidades y al valor real de tu inmueble." },
-      { t: "Firma ante notario ante notario ante notario", d: "Te acompañamos durante todo el proceso hasta la firma ante notario." },
+      { t: "Firma ante notario", d: "Te acompañamos en cada etapa del proceso hasta la firma ante notario con todas las garantías legales." },
     ],
   },
   en: {
