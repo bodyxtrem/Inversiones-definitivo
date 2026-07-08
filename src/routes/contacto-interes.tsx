@@ -237,7 +237,7 @@ function Contact() {
                 <div>
                   <p className="font-medium">{t.address}</p>
                   <p className="text-muted-foreground">
-                    Av. Diagonal 407 1º 2ª, 08008 Barcelona
+                    Av. Diagonal 539, 1º 1ª, 08029 Barcelona
                   </p>
                 </div>
               </li>

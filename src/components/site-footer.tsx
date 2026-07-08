@@ -73,7 +73,7 @@ export function SiteFooter() {
         <div>
           <h3 className="font-serif text-xl text-gold mb-4">{t.contact}</h3>
           <ul className="space-y-3 text-sm">
-            <li className="flex gap-3"><MapPin size={18} className="text-gold shrink-0" /> Av. Diagonal 407 1º 2ª, 08008 Barcelona</li>
+            <li className="flex gap-3"><MapPin size={18} className="text-gold shrink-0" /> Av. Diagonal 539, 1º 1ª, 08029 Barcelona</li>
             <li className="flex gap-3"><Mail size={18} className="text-gold shrink-0" /> info@royalgroup.com</li>
             <li className="flex gap-3"><Phone size={18} className="text-gold shrink-0" /> +34 900 000 000</li>
           </ul>

@@ -66,7 +66,7 @@ function Contact() {
                 </span>
                 <div>
                   <p className="font-medium">{t.address}</p>
-                  <p className="text-muted-foreground">Av. Diagonal 407 1º 2ª, 08008 Barcelona</p>
+                  <p className="text-muted-foreground">Av. Diagonal 539, 1º 1ª, 08029 Barcelona</p>
                 </div>
               </li>
               <li className="flex gap-4">
