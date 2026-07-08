@@ -220,15 +220,15 @@ function Contact() {
         subtitle={t.subtitle}
       />
 
-      <section className="py-20 px-6">
-        <div className="mx-auto max-w-6xl grid lg:grid-cols-2 gap-16">
-          {/* FORMULARIO A LA IZQUIERDA */}
+      <section className="px-6 py-20">
+        <div className="mx-auto flex max-w-6xl flex-col gap-16 lg:grid lg:grid-cols-2">
+          {/* FORMULARIO: PRIMERO EN MÓVIL Y A LA IZQUIERDA EN ORDENADOR */}
           <form
             onSubmit={handleSubmit}
-            className="bg-secondary p-8 rounded-lg space-y-4"
+            className="order-1 space-y-4 rounded-lg bg-secondary p-8"
           >
             {sent ? (
-              <div className="text-center py-16">
+              <div className="py-16 text-center">
                 <h3 className="font-serif text-2xl text-teal-deep">
                   {t.thanks}
                 </h3>
@@ -248,7 +248,7 @@ function Contact() {
                 <div>
                   <label
                     htmlFor="name"
-                    className="block text-sm mb-2 font-medium"
+                    className="mb-2 block text-sm font-medium"
                   >
                     {t.nameField}
                   </label>
@@ -259,14 +259,14 @@ function Contact() {
                     type="text"
                     autoComplete="name"
                     required
-                    className="w-full px-4 py-3 rounded-md border border-border bg-background focus:outline-none focus:ring-2 focus:ring-teal"
+                    className="w-full rounded-md border border-border bg-background px-4 py-3 focus:outline-none focus:ring-2 focus:ring-teal"
                   />
                 </div>
 
                 <div>
                   <label
                     htmlFor="email"
-                    className="block text-sm mb-2 font-medium"
+                    className="mb-2 block text-sm font-medium"
                   >
                     {t.emailField}
                   </label>
@@ -277,14 +277,14 @@ function Contact() {
                     type="email"
                     autoComplete="email"
                     required
-                    className="w-full px-4 py-3 rounded-md border border-border bg-background focus:outline-none focus:ring-2 focus:ring-teal"
+                    className="w-full rounded-md border border-border bg-background px-4 py-3 focus:outline-none focus:ring-2 focus:ring-teal"
                   />
                 </div>
 
                 <div>
                   <label
                     htmlFor="phone"
-                    className="block text-sm mb-2 font-medium"
+                    className="mb-2 block text-sm font-medium"
                   >
                     {t.phoneField}
                   </label>
@@ -295,14 +295,14 @@ function Contact() {
                     type="tel"
                     autoComplete="tel"
                     required
-                    className="w-full px-4 py-3 rounded-md border border-border bg-background focus:outline-none focus:ring-2 focus:ring-teal"
+                    className="w-full rounded-md border border-border bg-background px-4 py-3 focus:outline-none focus:ring-2 focus:ring-teal"
                   />
                 </div>
 
                 <div>
                   <label
                     htmlFor="interest"
-                    className="block text-sm mb-2 font-medium"
+                    className="mb-2 block text-sm font-medium"
                   >
                     {t.interestField}
                   </label>
@@ -312,7 +312,7 @@ function Contact() {
                     name="interest"
                     required
                     defaultValue=""
-                    className="w-full px-4 py-3 rounded-md border border-border bg-background focus:outline-none focus:ring-2 focus:ring-teal"
+                    className="w-full rounded-md border border-border bg-background px-4 py-3 focus:outline-none focus:ring-2 focus:ring-teal"
                   >
                     <option value="" disabled>
                       {t.selectPlaceholder}
@@ -339,7 +339,7 @@ function Contact() {
                 <div>
                   <label
                     htmlFor="message"
-                    className="block text-sm mb-2 font-medium"
+                    className="mb-2 block text-sm font-medium"
                   >
                     {t.messageField}
                   </label>
@@ -375,7 +375,7 @@ function Contact() {
                         textarea.setCustomValidity(t.messageMin);
                       }
                     }}
-                    className="w-full px-4 py-3 rounded-md border border-border bg-background focus:outline-none focus:ring-2 focus:ring-teal"
+                    className="w-full rounded-md border border-border bg-background px-4 py-3 focus:outline-none focus:ring-2 focus:ring-teal"
                   />
 
                   <p
@@ -399,7 +399,7 @@ function Contact() {
                 <button
                   type="submit"
                   disabled={sending}
-                  className="w-full bg-teal-deep text-white py-4 rounded-full hover:bg-teal transition disabled:cursor-not-allowed disabled:opacity-60"
+                  className="w-full rounded-full bg-teal-deep py-4 text-white transition hover:bg-teal disabled:cursor-not-allowed disabled:opacity-60"
                 >
                   {sending ? t.sending : t.send}
                 </button>
@@ -407,8 +407,8 @@ function Contact() {
             )}
           </form>
 
-          {/* INFORMACIÓN A LA DERECHA */}
-          <div>
+          {/* INFORMACIÓN: SEGUNDA EN MÓVIL Y A LA DERECHA EN ORDENADOR */}
+          <div className="order-2">
             <h2 className="font-serif text-2xl text-teal-deep">
               {t.h2}
             </h2>
@@ -419,7 +419,7 @@ function Contact() {
 
             <ul className="mt-8 space-y-6">
               <li className="flex gap-4">
-                <span className="w-12 h-12 rounded-full bg-teal-deep text-gold flex items-center justify-center shrink-0">
+                <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-teal-deep text-gold">
                   <MapPin size={20} />
                 </span>
 
@@ -433,7 +433,7 @@ function Contact() {
               </li>
 
               <li className="flex gap-4">
-                <span className="w-12 h-12 rounded-full bg-teal-deep text-gold flex items-center justify-center shrink-0">
+                <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-teal-deep text-gold">
                   <Mail size={20} />
                 </span>
 
@@ -447,7 +447,7 @@ function Contact() {
               </li>
 
               <li className="flex gap-4">
-                <span className="w-12 h-12 rounded-full bg-teal-deep text-gold flex items-center justify-center shrink-0">
+                <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-teal-deep text-gold">
                   <Phone size={20} />
                 </span>
 
