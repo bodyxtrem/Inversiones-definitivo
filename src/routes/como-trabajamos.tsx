@@ -1,6 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { PageHero, SiteLayout } from "@/components/site-layout";
 import { usePick } from "@/lib/lang";
+import { FileText, Search, Handshake, PenLine, Clock3, ShieldCheck, Users } from "lucide-react";
 
 export const Route = createFileRoute("/como-trabajamos")({
   head: () => ({
@@ -53,7 +54,9 @@ const content = {
   },
 };
 
-const numbers = ["1.", "2.", "3.", "4."];
+const numbers = ["1","2","3","4"];
+const icons=[FileText,Search,Handshake,PenLine];
+const times=["5 minutos","24-48 horas","24 horas","Según disponibilidad"];
 
 function How() {
   const t = usePick(content);
@@ -61,19 +64,36 @@ function How() {
     <SiteLayout>
       <PageHero eyebrow={t.eyebrow} title={t.title} subtitle={t.subtitle} />
       <section className="py-20 px-6">
-        <div className="mx-auto max-w-4xl space-y-12">
-          {t.steps.map((s, i) => (
-            <div key={s.t} className="flex gap-8 items-start border-b border-border pb-12 last:border-none">
-              <span className="font-serif text-6xl text-gold leading-none w-24 shrink-0">{numbers[i]}</span>
-              <div>
-                <h3 className="font-serif text-2xl text-teal-deep">{s.t}</h3>
-                <p className="mt-3 text-muted-foreground leading-relaxed">{s.d}</p>
-                <p className="mt-4 text-sm text-teal">{t.stepLabel(i + 1, t.steps.length)}</p>
-              </div>
-            </div>
-          ))}
-        </div>
-      </section>
+<div className="mx-auto max-w-5xl">
+<div className="bg-secondary rounded-2xl p-8 mb-16 border border-border">
+<p className="flex items-center gap-3 text-lg"><Clock3 className="text-gold"/>En menos de <strong>72 horas</strong> sabrás si tu operación es viable y recibirás una propuesta personalizada.</p>
+</div>
+<div className="relative border-l-2 border-gold/40 ml-8">
+{t.steps.map((s,i)=>{const Icon=icons[i]; return (
+<div key={s.t} className="relative pl-16 pb-10">
+<div className="absolute -left-8 top-2 w-14 h-14 rounded-full bg-gold text-white flex items-center justify-center font-serif text-2xl">{numbers[i]}</div>
+<div className="rounded-xl border border-border bg-secondary p-8 shadow-sm hover:shadow-xl transition">
+<div className="flex justify-between items-start gap-6 flex-wrap">
+<div className="flex gap-5">
+<div className="w-16 h-16 rounded-full bg-background flex items-center justify-center"><Icon className="text-teal-deep"/></div>
+<div><h3 className="font-serif text-2xl text-teal-deep">{s.t}</h3><p className="mt-3 text-muted-foreground leading-relaxed">{s.d}</p></div>
+</div>
+<div className="text-right min-w-[140px]"><p className="text-gold font-medium">{times[i]}</p><p className="text-sm text-teal mt-2">{t.stepLabel(i+1,t.steps.length)}</p></div>
+</div>
+</div>
+</div>)})}
+</div>
+<div className="mt-16 rounded-2xl bg-secondary border border-border p-10 text-center">
+<div className="flex justify-center gap-10 mb-6 flex-wrap">
+<div className="flex items-center gap-2"><Users className="text-gold"/><span>Más de 20 años de experiencia</span></div>
+<div className="flex items-center gap-2"><ShieldCheck className="text-gold"/><span>Operaciones con garantías reales</span></div>
+</div>
+<h2 className="font-serif text-4xl text-teal-deep">¿Empezamos?</h2>
+<p className="mt-4 text-muted-foreground">Solicita un estudio gratuito y recibe una respuesta en un plazo de 48 a 72 horas.</p>
+<a href="/contacto" className="inline-flex mt-8 bg-teal-deep text-white px-8 py-4 rounded-full hover:bg-teal transition">Solicitar estudio gratuito</a>
+</div>
+</div>
+</section>
     </SiteLayout>
   );
 }
