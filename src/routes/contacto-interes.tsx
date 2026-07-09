@@ -60,7 +60,7 @@ const content = {
     messageRequired: "Cuéntanos qué estás buscando.",
     messageMin: "Debes escribir al menos 15 caracteres.",
 
-    send: "Quiero recibir información",
+    send: "Quiero mi estudio gratuito de liquidez",
     sending: "Enviando...",
 
     thanks: "¡Solicitud recibida!",
